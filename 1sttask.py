@@ -1,3 +1,5 @@
+#First attempt no longer in use
+
 import cv2 as cv
 import time
 import RPi.GPIO as GPIO
