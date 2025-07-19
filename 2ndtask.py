@@ -1,3 +1,5 @@
+#First attempt no longer in use
+
 from teachable_machine_lite import TeachableMachineLite
 import cv2 as cv
 import time
