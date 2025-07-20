@@ -1,3 +1,4 @@
+#no longer in use
 import sys
 sys.modules['RPi'] = __import__('fake_rpi')  # Mock RPi.GPIO
 import RPi.GPIO as GPIO  # Correct import (not gpiozero!)
