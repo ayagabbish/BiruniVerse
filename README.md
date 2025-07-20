@@ -1,4 +1,3 @@
-# BiruniVerse
 ## Engineering Material
 - Raspberri pi 4
 - ESP-WROOM-32
