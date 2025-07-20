@@ -33,9 +33,9 @@ const int ENCODER_DC_MOTOR_B_PIN = 18;
 const int COLOR_SENSOR_OE_PIN = 17;
 const int COLOR_SENSOR_S0_PIN = 4;
 const int COLOR_SENSOR_S1_PIN = 16;
-const int COLOR_SENSOR_S2_PIN = 5;  // Moved from D15
-const int COLOR_SENSOR_S3_PIN = 2;  // Moved from D22
-const int COLOR_SENSOR_OUT_PIN = 32; // Moved from D2
+const int COLOR_SENSOR_S2_PIN = 21;  // Moved from D15
+const int COLOR_SENSOR_S3_PIN = 22;  // Moved from D22
+const int COLOR_SENSOR_OUT_PIN = 15; // Moved from D2
 
 // --- Constants ---
 #define US_SOUND_SPEED_CM_PER_US 0.0343 //to calculate distance from ultrasonic
