@@ -11,7 +11,5 @@
 
 ## Raspberry Pi 4
 <p align="center">
-  <a href="./R6.mp4">
-    <img alt="R6 Video" src="R6-thumbnail.jpg" width="80%">
-  </a>
+  <img src="./R7.gif" alt="R7 Demo" width="80%">
 </p>
