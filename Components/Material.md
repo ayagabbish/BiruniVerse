@@ -2,5 +2,5 @@
 in our robot car project
 ## Raspberry Pi 4
 <p align="center">
-  <img src="./R6-ezgif.com-optimize.gif" alt="R6 Demo" width="70%">
-</p> 
+  <img src=".RAS.gif" alt="Looping Demo" width="80%">
+</p>
