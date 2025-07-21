@@ -10,8 +10,8 @@
 - ultrasonics : we used 3 ultrasonics 2 on the sides and 1 in the front
 
 ## Raspberry Pi 4
-<p align="center">
+<v align="center">
 <video>
-  <img alt="--" src="R6.mp4" width="80%" hight="40%" >
+  <vid alt="--" src="R6.mp4" width="80%" hight="40%" >
 </video>
-</p>
+</v>
