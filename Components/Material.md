@@ -3,5 +3,5 @@ in our robot car project
 ## Raspberry Pi 4
 <p align="center">
   <img src="./R6-ezgif.com-optimize.gif" alt="R6 Demo" width="50%">
-</p>
+</p> 
 
