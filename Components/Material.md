@@ -2,7 +2,7 @@
 The Material we used to build our robot car
 ## Raspberry Pi 4
 <p align="center">
-  <img src="./RAS.gif" alt="Looping Demo" width="50%">
+  <img src="./RAS.gif" alt="Raspberry Pi 4" width="50%">
 </p>
 
 **Processor**: 1.5GHz 64-bit quad-core  
