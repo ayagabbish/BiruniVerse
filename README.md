@@ -1,4 +1,4 @@
-## Engineering Material
+# Engineering Material
 - Raspberri pi 4
 - ESP-WROOM-32
 - ESP32 expansion board
@@ -9,6 +9,7 @@
 - Color Sensor
 - ultrasonics : we used 3 ultrasonics 2 on the sides and 1 in the front
 
-  ##Raspberry Pi 4
-  <video autoplay loop muted src="R6.mp4"></video>
+##Raspberry Pi 4
+
+<video autoplay loop muted src="R6.mp4"></video>
 
