@@ -43,7 +43,7 @@ The Material we used to build our robot car
 ## Ultrasonic Sensor
 <p align="center">
 <picture>
-  <img alt="Ultrasonic Sensor" src="ultrasonic.jpg" width="50%" hight="40%" >
+  <img alt="Ultrasonic Sensor" src="ultrasonic.rar" width="50%" hight="40%" >
 </picture>
 </p>
 
