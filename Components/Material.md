@@ -24,6 +24,8 @@ The Material we used to build our robot car
 <p align="center">
   <img src="./ESP32model3d.gif" alt="Raspberry Pi 4" width="50%">
 </p>
+
+
 - **Model**: HW-463C V0.0.6  
 - **Board**: NodeMCU-ESP32 (ESP32 DEVKITV1)  
 - **Chip**: ESP32 (Dual-core Xtensa LX6, up to 240MHz)  
