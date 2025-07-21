@@ -18,6 +18,7 @@ The Material we used to build our robot car
   - USB 3.0
 
 ***Purpose*** : The purpose of using the Raspberry Pi 4 was to connect a camera that provides visual input to the system. This input is then processed using machine learning, including image classification and recognition. Moreover, these methods guide the robot car to determine the turning direction based on live information and observations. In addition, the system can make decisions on the spot in a changing environment.
+
 ***Selection reason*** : As for the reason for choosing the Raspberry Pi 4, it is due to its easier-to-provide power source and lower power consumption. It is also more compatible when coding and using libraries. and lastley, its accessories are more affordable, and it generates less heat compared to the Raspberry Pi 5.
 
 
