@@ -22,3 +22,9 @@ The Material we used to build our robot car
 ***Selection reason*** : As for the reason for choosing the Raspberry Pi 4, it is due to its easier-to-provide power source and lower power consumption. It is also more compatible when coding and using libraries. and lastley, its accessories are more affordable, and it generates less heat compared to the Raspberry Pi 5.
 
 
+## ESP32
+<p  align="center">
+  <img scr="./esp32,3DModel.gif" alt="ESP32" width="50%">
+</p>
+
+
