@@ -23,8 +23,7 @@ The Material we used to build our robot car
 
 
 ## ESP32
-<p  align="center">
-  <img scr="./esp32,3DModel.gif" alt="ESP32" width="50%">
+<p align="center">
+  <img src="./ESP32model3d.gif" alt="Raspberry Pi 4" width="50%">
 </p>
-
 
