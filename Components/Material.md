@@ -8,7 +8,9 @@ The Material we used to build our robot car
 **Processor**: 1.5GHz 64-bit quad-core  
 **RAM**: 8GB LPDDR4  
 **SD card**: 32GB 
+
 **Ports**: 2 USB 3.0 ports, 2 USB 2.0 ports
+
 **Connectivity**:  
   - Dual-band Wi-Fi  
   - Bluetooth 5.0  
