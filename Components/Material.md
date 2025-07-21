@@ -38,3 +38,12 @@ The Material we used to build our robot car
 - **Operating Voltage**: 3.3V  
 
 ***Purpose*** : its to connect the rest of the robots components, sensors and motors, to ensure their best preformance, we programmed the microcontroller using C++, It connects to the Raspberry Pi, which handles image recognition. Based on camera input (red or green obstacle), the Raspberry Pi sends commands to the ESP32, which then executes movement through the connected hardware.
+***Selection reason*** :
+
+## Ultrasonic Sensor
+<p align="center">
+<picture>
+  <img alt="Ultrasonic Sensor" src="ultrasonic.jpg" width="50%" hight="40%" >
+</picture>
+</p>
+
