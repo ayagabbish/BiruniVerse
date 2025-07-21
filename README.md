@@ -8,5 +8,7 @@
 - Infrared Sensor
 - Color Sensor
 - ultrasonics : we used 3 ultrasonics 2 on the sides and 1 in the front
-  
+
+  ##Raspberry Pi 4
+  <video autoplay loop muted src="R6.mp4"></video>
 
