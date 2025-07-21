@@ -12,3 +12,4 @@ The Material we used to build our robot car
   - Bluetooth 5.0  
   - Gigabit Ethernet  
   - USB 3.0  
+**Purpose*
