@@ -5,13 +5,11 @@ The Material we used to build our robot car
   <img src="./RAS.gif" alt="Raspberry Pi 4" width="50%">
 </p>
 
-**Processor**: 1.5GHz 64-bit quad-core  
-**RAM**: 8GB LPDDR4  
-**SD card**: 32GB 
-
-**Ports**: 2 USB 3.0 ports, 2 USB 2.0 ports
-
-**Connectivity**:  
+- **Processor**: 1.5GHz 64-bit quad-core  
+- **RAM**: 8GB LPDDR4  
+- **SD card**: 32GB 
+- **Ports**: 2 USB 3.0 ports, 2 USB 2.0 ports
+- **Connectivity**:  
   - Dual-band Wi-Fi  
   - Bluetooth 5.0  
   - Gigabit Ethernet  
@@ -26,4 +24,14 @@ The Material we used to build our robot car
 <p align="center">
   <img src="./ESP32model3d.gif" alt="Raspberry Pi 4" width="50%">
 </p>
+- **Model**: HW-463C V0.0.6  
+- **Board**: NodeMCU-ESP32 (ESP32 DEVKITV1)  
+- **Chip**: ESP32 (Dual-core Xtensa LX6, up to 240MHz)  
+- **Wi-Fi**: 802.11 b/g/n (2.4GHz)  
+- **Bluetooth**: v4.2 BR/EDR + BLE  
+- **RAM**: 520KB SRAM  
+- **Flash**: 4MB (or 16MB, depending on variant)  
+- **GPIO Pins**: 38 (including ADC, DAC, UART, SPI, I2C)  
+- **USB**: Micro-USB (for power/programming)  
+- **Operating Voltage**: 3.3V  
 
