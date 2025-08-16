@@ -133,25 +133,30 @@ The Material we used to build our robot car
 
 ---
 
-## DC Motor
+## DC Motor (XY-N20)
 <p align="center">
-  <img src="./.gif" alt="DC Motor" width="50%">
+  <img src="./.gif" alt="XY-N20 DC Gear Motor" width="50%">
 </p>
 
-- **Voltage**: 3V to 6V  
-- **Rated Voltage**: 6V  
-- **No-load Speed**: ~30 to 1000 RPM (depends on gear ratio)  
-- **No-load Current**: ~40 mA to 150 mA  
-- **Stall Current**: ~300 mA to 600 mA  
-- **Stall Torque**: ~0.1 to 1.2 kg·cm (varies by gear ratio)  
-- **Motor Type**: Brushed DC with metal gearbox  
-- **Shaft Diameter**: 3 mm (D-shaped)  
-- **Gearbox Size**: 12 mm × 10 mm × 26 mm (approx.)  
-- **Rotation Direction**: Reversible by switching polarity  
+- **Model**: XY-N20 DC Gear Motor with Magnetic (Hall) Encoder  
+- **Rated Voltage**: 12 V DC  
+- **No-load Speed**: ~200 RPM  
+- **No-load Startup Voltage**: ~3 V (max)  
+- **No-load Current**: ~0.1 A (max)  
+- **Locked-rotor (Stall) Torque**: ≥ 1.2 kg·cm  
+- **Locked-rotor (Stall) Current**: ≥ 1.1 A  
+- **Encoder Type**: AB dual-phase incremental magnetic Hall encoder  
+- **Encoder Resolution**: Basic 7 PPR × 150 gear ratio = ~1050 PPR  
+- **Encoder Power Supply**: 3.3 V or 5 V (with internal pull-up)  
+- **Response Frequency**: Up to ~100 kHz  
+- **Gearbox**: All-metal, high-precision reduction gearbox  
+- **Connector**: L-shaped 6-pin (for motor power and encoder signals)  
+- **Rotation**: Reversible (via polarity swap)  
 
-***Purpose*** : Provides forward and backward movement for the robot based on sensor inputs.  
+***Purpose*** : Provides both motion and precise feedback for the robot’s navigation. The built-in encoder enables accurate speed or position sensing, improving control over direction and obstacle avoidance.
 
-***Selection reason*** : Small, lightweight, affordable, and works well with the L298N H-Bridge. Its gearbox increases torque, supports reversible motion, and operates efficiently at 3V–6V.  
+***Selection Reason*** : Combines durable all-metal gearing with integrated encoder feedback. This enhances both reliability and accuracy, making it ideal for robotics applications needing lightweight yet precise actuators.
+
 
 ---
 
@@ -160,6 +165,7 @@ The Material we used to build our robot car
   <img src="./.gif" alt="Servo Motor" width="50%">
 </p>
 
+- **Model**:DCGM-N20-12V-EN-200RPM
 - **Voltage**: 4.8V to 6V  
 - **Operating Current**: ~100 mA to 250 mA (under load)  
 - **Stall Torque**: 1.8 kg·cm at 4.8V  
