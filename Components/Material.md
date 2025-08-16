@@ -121,5 +121,100 @@ The Material we used to build our robot car
 - **Logic Voltage**: 5V  
 - **Continuous Current**: 2A per channel  
 - **Peak Current**: 3A per chann
+- **Channels**: 2 (dual H-Bridge)  
+- **Speed Control**: PWM (ENA/ENB pins)  
+- **Direction Control**: IN1, IN2, IN3, IN4  
+- **Protection**: Thermal shutdown, current limiting  
+- **Flyback Diodes**: Included  
 
+***Purpose*** : The ESP32 cannot directly reverse motor direction, but an H-Bridge enables this through simple digital HIGH/LOW signals. It also supports braking and freewheeling modes, offering finer control. It acts as a power driver, handling higher motor currents safely.  
+
+***Selection reason*** : Without an H-Bridge, a DC motor can only spin one way. The H-Bridge makes motor control safe, programmable, and reliable.  
+
+---
+
+## DC Motor
+<p align="center">
+  <img src="./.gif" alt="DC Motor" width="50%">
+</p>
+
+- **Voltage**: 3V to 6V  
+- **Rated Voltage**: 6V  
+- **No-load Speed**: ~30 to 1000 RPM (depends on gear ratio)  
+- **No-load Current**: ~40 mA to 150 mA  
+- **Stall Current**: ~300 mA to 600 mA  
+- **Stall Torque**: ~0.1 to 1.2 kg·cm (varies by gear ratio)  
+- **Motor Type**: Brushed DC with metal gearbox  
+- **Shaft Diameter**: 3 mm (D-shaped)  
+- **Gearbox Size**: 12 mm × 10 mm × 26 mm (approx.)  
+- **Rotation Direction**: Reversible by switching polarity  
+
+***Purpose*** : Provides forward and backward movement for the robot based on sensor inputs.  
+
+***Selection reason*** : Small, lightweight, affordable, and works well with the L298N H-Bridge. Its gearbox increases torque, supports reversible motion, and operates efficiently at 3V–6V.  
+
+---
+
+## Servo Motor
+<p align="center">
+  <img src="./.gif" alt="Servo Motor" width="50%">
+</p>
+
+- **Voltage**: 4.8V to 6V  
+- **Operating Current**: ~100 mA to 250 mA (under load)  
+- **Stall Torque**: 1.8 kg·cm at 4.8V  
+- **Speed**: ~0.1 sec/60° at 4.8V  
+- **Rotation Range**: 0° to ~180° (limited by internal stops)  
+- **Control Signal**: PWM (50 Hz, 1–2 ms pulse width)  
+- **Motor Type**: Brushed DC motor with control circuitry and feedback  
+- **Weight**: ~9 g  
+- **Dimensions**: 22.8 × 12.2 × 29.5 mm  
+- **Gear Type**: Plastic gears  
+- **Shaft Type**: Spline (21 teeth)  
+- **Connector**: 3-pin (Signal, VCC, GND)  
+
+***Purpose*** : Used in the robot car’s steering mechanism. In Task 2, it worked with the camera and Teachable Machine to avoid obstacles dynamically by adjusting angles gradually. In Task 1, it turned 90° at track edges with ultrasonic input to keep the car aligned.  
+
+***Selection reason*** : Compact, affordable, easy to control, and accurate for 0°–180° rotation, making it ideal for steering.  
+
+---
+
+## ESP32 Expansion Board
+<p align="center">
+  <img src="./.gif" alt="ESP32 Expansion Board" width="50%">
+</p>
+
+- **Microcontroller**: ESP32 (dual-core, 240 MHz)  
+- **Connectivity**: Wi-Fi + Bluetooth  
+- **Operating Voltage**: 3.3V  
+- **Programming**: Arduino IDE or MicroPython  
+- **USB**: For power and programming (usually Micro-USB)  
+
+***Purpose*** : Acts as the main controller for connecting sensors, processing inputs, and controlling outputs such as LEDs and motors.  
+
+***Selection reason*** : Supports wireless communication, IoT applications, and runs code directly (Arduino/MicroPython). Flexible, powerful, and easy to integrate.  
+
+---
+
+## Camera
+<p align="center">
+  <img src="./.gif" alt="Camera" width="50%">
+</p>
+
+***Specification*** : (to be filled)  
+
+***Purpose*** : Provides real-time visual input for machine learning–based navigation and obstacle detection.  
+
+***Selection reason*** : Essential for implementing image recognition and guiding the robot’s decision-making system.  
+
+---
+
+## Teachable Machine
+<p align="center">
+  <img src="./.gif" alt="Teachable Machine" width="50%">
+</p>
+
+***Purpose*** : Allowed the team to quickly train an image classification model without complex coding. The model was exported as TensorFlow Lite and deployed to the device for real-time object recognition, integrating machine learning into the robot’s decision-making system.  
+
+***Selection reason*** : Simplified ML integration, reduced development time, and provided accessible tools for fast prototyping.  
 
