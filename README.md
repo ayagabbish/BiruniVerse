@@ -15,18 +15,28 @@
 
 # Table of Contents
 
-| Section | Description |
-|--------|-------------|
-| [Introduction](#introduction) | Technical overview of the code structure, modules, and uploading process. |
-| [Team Photos](#team-photos) | Includes official and funny photos of the full team. |
-| [Vehicle Photos](#vehicle-photos) | Shows 6 detailed images of the robot from all sides, including top and bottom. |
-| [Video Demonstration](#video-demonstration) | Link to the official driving demo video of the robot. |
-| [Schematics](#schematics) | Diagrams illustrating electronic and mechanical connections of the robot. |
-| [Source Code](#source-code) | Contains code for all programmed components used in the vehicle. |
-| [3D/CNC Models](#3dcnc-models) | Files for 3D printing, laser cutting, or CNC machine use. |
-| [Other Documentation](#other-documentation) | Includes datasets, connection guides, protocols, and specifications. |
 
----
+
+| **Section**                  | **Description** |
+|-----------------------------|-----------------|
+
+| 📌 **1. Project Overview**   |                 |
+| [Introduction](#introduction) | Technical overview of the code structure, modules, and uploading process. |
+| [Video Demonstration](#video-demonstration) | Link to the official driving demo video of the robot. |
+
+| 👥 **2. Team**               |                 |
+| [Team Photos](#team-photos) | Includes official and funny photos of the full team. |
+
+| 🤖 **3. The Robot**          |                 |
+| [Vehicle Photos](#vehicle-photos) | Shows 6 detailed images of the robot from all sides, including top and bottom. |
+| [Schematics](#schematics) | Diagrams illustrating electronic and mechanical connections of the robot. |
+| [3D/CNC Models](#3dcnc-models) | Files for 3D printing, laser cutting, or CNC machine use. |
+
+| 💻 **4. Code & Software**    |                 |
+| [Source Code](#source-code) | Contains code for all programmed components used in the vehicle. |
+
+| 📄 **5. Documentation**      |                 |
+| [Other Documentation](#other-documentation) | Includes datasets, connection guides, protocols, and specifications. |
 
 ## Introduction
 
