@@ -1,4 +1,4 @@
-
+<h1 align="center">BiruniVerse Team</h1>
 <p align="center">
   <img src="logo.PNG" alt="BiruniVerse Logo" width="300"/>
 </p>
