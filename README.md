@@ -13,7 +13,30 @@
 * `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
 * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
 
+## Table of Contents
 
+1. [Project Overview](#1-project-overview)  
+   1.1 [Competition Context](#11-competition-context)  
+   1.2 [Team Management](#12-team-management)  
+   1.3 [Vehicle Strengths & Limitations](#13-vehicle-strengths--limitations)  
+
+2. [Programming & Navigation](#2-programming--navigation)  
+   2.1 [Programming Language & Libraries](#21-programming-language--libraries)  
+   2.2 [Turn & Direction Detection](#22-turn--direction-detection)  
+   2.3 [Lap Counting Method](#23-lap-counting-method)  
+   2.4 [IMU-Based Steering](#24-imu-based-steering)  
+
+3. [Open Challenge](#3-open-challenge)  
+   3.1 [Challenge Overview](#31-challenge-overview)  
+   3.2 [PID Controller](#32-pid-controller)  
+   3.3 [Turn Execution](#33-turn-execution)  
+
+4. [Obstacle Avoidance](#4-obstacle-avoidance)  
+   4.1 [Overview](#41-overview)  
+   4.2 [Pillar Detection](#42-pillar-detection)  
+   4.3 [Avoidance Strategy](#43-avoidance-strategy)  
+
+5. [Design Process](#5-design-process)
 # Engineering Material
 - Raspberri pi 4
 - ESP-WROOM-32
