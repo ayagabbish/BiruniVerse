@@ -90,7 +90,7 @@ The Material we used to build our robot car
 ## Color Sensor
 <p align="center">
 <picture>
-  <img src="color sensor.jpeg" alt="Color Sensor" width="40%" hight="30%">
+  <img src="color sensor.jpeg" alt="Color Sensor" width="30%" hight="20%">
 </picture>
 </p>
 
@@ -119,7 +119,7 @@ The Material we used to build our robot car
 ## H-Bridge
 <p align="center">
 <picture>
-  <img src="h-bridge.jpg" alt="H-Bridge" width="50%" hight="40%">
+  <img src="h-bridge.jpg" alt="H-Bridge" width="30%" hight="20%">
 </picture>
 </p>
 
@@ -142,7 +142,7 @@ The Material we used to build our robot car
 ## DC Motor (XY-N20)
 <p align="center">
 <picture>
-  <img src="dc.jpg" alt="XY-N20 DC Gear Motor" width="50%" hight="40%">
+  <img src="dc.jpg" alt="XY-N20 DC Gear Motor" width="30%" hight="20%">
 </picture>
 </p>
 
@@ -171,7 +171,7 @@ The Material we used to build our robot car
 ## Servo Motor
 <p align="center">
 <picture>
-  <img src="servo.webp" alt="Servo Motor" width="50%" hight="40%">
+  <img src="servo.webp" alt="Servo Motor" width="30%" hight="20%">
 </picture>
 </p>
 
@@ -217,7 +217,7 @@ The Material we used to build our robot car
 ## Camera
 <p align="center">
 <picture>
-  <img src="./.gif" alt="Camera" width="50%" hight="40%">
+  <img src="./.gif" alt="Camera" width="30%" hight="20%">
 </picture>
 </p>
 
@@ -232,7 +232,7 @@ The Material we used to build our robot car
 ## Teachable Machine
 <p align="center">
 <picture>
-  <img src="teachable machine.png" alt="Teachable Machine" width="50%" hight="40%">
+  <img src="teachable machine.png" alt="Teachable Machine" width="45%" hight="40%">
 </picture>
 </p>
 
