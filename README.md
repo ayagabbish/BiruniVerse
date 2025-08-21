@@ -1,4 +1,7 @@
 ![BiruniVerse Logo](logo.PNG)
+<p align="center">
+  <img src="logo.PNG" alt="BiruniVerse Logo" width="300"/>
+</p>
 # Engineering Material
 - Raspberri pi 4
 - ESP-WROOM-32
