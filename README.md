@@ -2,7 +2,7 @@
 <p align="center">
   <img src="logo.PNG" alt="BiruniVerse Logo" width="300"/>
 
->  This repository documents the technical design, engineering processes, and development stages of our autonomous vehicle prototype created for the WRO Future Engineers Challenge 2025.
+>  This repository documents the technical design, engineering processes, and development stages of our autonomous vehicle prototype. Built by three passionate engineering students, this robot is our gateway to the universe. United by creativity and curiosity, and supported by Birzeit University, we proudly present our journey in the WRO Future Engineers Challenge 2025.
 
 # Engineering Material
 - Raspberri pi 4
