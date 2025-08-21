@@ -66,7 +66,9 @@ The Material we used to build our robot car
 
 ## Infrared Sensor
 <p align="center">
-  <img src="./.gif" alt="Infrared Sensor" width="50%">
+<picture>
+  <img src="./.gif" alt="Infrared Sensor" width="50%" hight="40%">
+</picture>
 </p>
 
 - **Model**: TCRT5000  
@@ -87,7 +89,9 @@ The Material we used to build our robot car
 
 ## Color Sensor
 <p align="center">
-  <img src="./.gif" alt="Color Sensor" width="50%">
+<picture>
+  <img src="color sensor.jpeg" alt="Color Sensor" width="50%" hight="40%">
+</picture>
 </p>
 
 - **Model**: TCS3200 Color Sensor  
@@ -114,7 +118,9 @@ The Material we used to build our robot car
 
 ## H-Bridge
 <p align="center">
-  <img src="./.gif" alt="H-Bridge" width="50%">
+<picture>
+  <img src="h-bridge.jpg" alt="H-Bridge" width="50%" hight="40%">
+</picture>
 </p>
 
 - **Voltage**: 5V to 35V  
@@ -135,7 +141,9 @@ The Material we used to build our robot car
 
 ## DC Motor (XY-N20)
 <p align="center">
-  <img src="./.gif" alt="XY-N20 DC Gear Motor" width="50%">
+<picture>
+  <img src="dc.jpg" alt="XY-N20 DC Gear Motor" width="50%" hight="40%">
+</picture>
 </p>
 
 - **Model**: XY-N20 DC Gear Motor with Magnetic (Hall) Encoder  
@@ -162,7 +170,9 @@ The Material we used to build our robot car
 
 ## Servo Motor
 <p align="center">
-  <img src="./.gif" alt="Servo Motor" width="50%">
+<picture>
+  <img src="servo.webp" alt="Servo Motor" width="50%" hight="40%">
+</picture>
 </p>
 
 - **Model**:DCGM-N20-12V-EN-200RPM
@@ -187,7 +197,9 @@ The Material we used to build our robot car
 
 ## ESP32 Expansion Board
 <p align="center">
-  <img src="./.gif" alt="ESP32 Expansion Board" width="50%">
+<picture>
+  <img src="board.png" alt="ESP32 Expansion Board" width="50%" hight="40%">
+</picture>
 </p>
 
 - **Microcontroller**: ESP32 (dual-core, 240 MHz)  
@@ -204,7 +216,9 @@ The Material we used to build our robot car
 
 ## Camera
 <p align="center">
-  <img src="./.gif" alt="Camera" width="50%">
+<picture>
+  <img src="./.gif" alt="Camera" width="50%" hight="40%">
+</picture>
 </p>
 
 ***Specification*** : (to be filled)  
@@ -217,7 +231,9 @@ The Material we used to build our robot car
 
 ## Teachable Machine
 <p align="center">
-  <img src="./.gif" alt="Teachable Machine" width="50%">
+<picture>
+  <img src="teachable machine.png" alt="Teachable Machine" width="50%" hight="40%">
+</picture>
 </p>
 
 ***Purpose*** : Allowed the team to quickly train an image classification model without complex coding. The model was exported as TensorFlow Lite and deployed to the device for real-time object recognition, integrating machine learning into the robot’s decision-making system.  
