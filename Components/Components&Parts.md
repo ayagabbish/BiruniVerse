@@ -90,7 +90,7 @@ The Material we used to build our robot car
 ## Color Sensor
 <p align="center">
 <picture>
-  <img src="color sensor.jpeg" alt="Color Sensor" width="50%" hight="40%">
+  <img src="color sensor.jpeg" alt="Color Sensor" width="40%" hight="30%">
 </picture>
 </p>
 
@@ -198,7 +198,7 @@ The Material we used to build our robot car
 ## ESP32 Expansion Board
 <p align="center">
 <picture>
-  <img src="board.png" alt="ESP32 Expansion Board" width="50%" hight="40%">
+  <img src="board.png" alt="ESP32 Expansion Board" width="25%" hight="20%">
 </picture>
 </p>
 
