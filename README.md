@@ -1,9 +1,8 @@
 <h1 align="center">BiruniVerse Team</h1>
 <p align="center">
   <img src="logo.PNG" alt="BiruniVerse Logo" width="300"/>
-</p><span style="color: grey;">This repository contains the engineering materials, steps, and details used in building our car for the WRO 2025 Future Engineers Challenge.</span>
 
-> 🚗 This repository documents the technical design, engineering processes, and development stages of our autonomous vehicle prototype created for the WRO Future Engineers Challenge 2024.
+>  This repository documents the technical design, engineering processes, and development stages of our autonomous vehicle prototype created for the WRO Future Engineers Challenge 2025.
 
 # Engineering Material
 - Raspberri pi 4
