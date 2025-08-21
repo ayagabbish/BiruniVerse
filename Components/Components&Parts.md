@@ -67,7 +67,7 @@ The Material we used to build our robot car
 ## Infrared Sensor
 <p align="center">
 <picture>
-  <img src="./.gif" alt="Infrared Sensor" width="50%" hight="40%">
+  <img src="infrered.webp" alt="Infrared Sensor" width="50%" hight="40%">
 </picture>
 </p>
 
