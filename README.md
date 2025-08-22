@@ -14,31 +14,31 @@
 * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
 # Table of Contents
 
-## 📘 Introduction
-- [🏁 Competition Overview](#-competition-overview)
-- [👥 Who Are We?](#-who-are-we)
-- [🎯 Robot Aims and Objectives](#-robot-aims-and-objectives)
+## Introduction
+- [ Competition Overview](#-competition-overview)
+- [ Who Are We?](#-who-are-we)
+- [ Robot Aims and Objectives](#-robot-aims-and-objectives)
 
-## 🧠 Technical Design
-- [📐 Design Strategy](#-design-strategy)
-- [🔧 Hardware Components](#-hardware-components)
-- [🧠 Software Architecture](#-software-architecture)
+##  Technical Design
+- [ Design Strategy](#-design-strategy)
+- [ Hardware Components](#-hardware-components)
+- [ Software Architecture](#-software-architecture)
 
-## 🛠️ Development Process
-- [🛠️ Assembly Process](#️-assembly-process)
-- [🧪 Testing and Iteration](#-testing-and-iteration)
-- [📊 Performance Metrics](#-performance-metrics)
+##  Development Process
+- [ Assembly Process](#️-assembly-process)
+- [ Testing and Iteration](#-testing-and-iteration)
+- [ Performance Metrics](#-performance-metrics)
 
-## 🗂️ Documentation
-- [📁 File Structure](#-file-structure)
-- [📸 Robot Photos](#-robot-photos)
-- [🔍 Future Improvements](#-future-improvements)
-- [🧑‍🏫 Lessons Learned](#-lessons-learned)
-- [📚 References](#-references)
+##  Documentation
+- [ File Structure](#-file-structure)
+- [ Robot Photos](#-robot-photos)
+- [ Future Improvements](#-future-improvements)
+- [ Lessons Learned](#-lessons-learned)
+- [ References](#-references)
 
 ---
 
-## 🏁 Competition Overview
+##  Competition Overview
 
 Students from all over the world come together to design, program, and test autonomous robots in the World Robot Olympiad (WRO), which is regarded as one of the top international robotics competitions. The Future Engineers challenge has a unique place in this international event because it encourages participants to work with cutting-edge robotics while firmly establishing the experience in useful, real-world engineering.
 
@@ -58,16 +58,16 @@ The team's engineering documentation, which includes design choices, system diag
 From ideation and prototyping to testing and solution presentation, Future Engineers replicates a real engineering workflow. Students get a firsthand look at what it's like to innovate and deal with uncertainty under actual technical limitations.
 
 
-## 👥 Who Are We?
+##  Who Are We?
 _TBD_
 
-## 🎯 Robot Aims and Objectives
+##  Robot Aims and Objectives
 _TBD_
 
-## 📐 Design Strategy
+##  Design Strategy
 _TBD_
 
-## 🔧 Hardware Components
+##  Hardware Components
 _TBD_# Engineering Material
 - Raspberri pi 4
 - ESP-WROOM-32
@@ -79,31 +79,31 @@ _TBD_# Engineering Material
 - Color Sensor
 - ultrasonics : we used 3 ultrasonics 2 on the sides and 1 in the front
 
-## 🧠 Software Architecture
+##  Software Architecture
 _TBD_
 
-## 🛠️ Assembly Process
+##  Assembly Process
 _TBD_
 
-## 🧪 Testing and Iteration
+##  Testing and Iteration
 _TBD_
 
-## 📊 Performance Metrics
+##  Performance Metrics
 _TBD_
 
-## 📁 File Structure
+##  File Structure
 _TBD_
 
-## 📸 Robot Photos
+##  Robot Photos
 _TBD_
 
-## 🔍 Future Improvements
+##  Future Improvements
 _TBD_
 
-## 🧑‍🏫 Lessons Learned
+##  Lessons Learned
 _TBD_
 
-## 📚 References
+##  References
 _TBD_
 
 
