@@ -42,15 +42,16 @@
 
 Students from all over the world come together to design, program, and test autonomous robots in the World Robot Olympiad (WRO), which is regarded as one of the top international robotics competitions. The Future Engineers challenge has a unique place in this international event because it encourages participants to work with cutting-edge robotics while firmly establishing the experience in useful, real-world engineering.
 
-<h1 align="left">
-  Competition Overview: WRO 2025 – Future Engineers
-  <img src="wrologo.PNG" alt="WRO Logo" width="80" align="right" style="margin-top: 20px;">
-</h1>
+
 
 Students from all over the world come together to design, program, and test autonomous robots in the World Robot Olympiad (WRO), which is regarded as one of the top international robotics competitions. The Future Engineers challenge has a unique place in this international event because it encourages participants to work with cutting-edge robotics while firmly establishing the experience in useful, real-world engineering.
 
 ### Autonomous Driving Focus
 Each team in the Future Engineers category uses onboard sensors and control logic to create a self-driving car that can navigate a randomly laid out track. 
+<h1 align="left">
+  Competition Overview: WRO 2025 – Future Engineers
+  <img src="wrologo.PNG" alt="WRO Logo" width="80" align="right" style="margin-top: 20px;">
+</h1>
 
 ### Adaptable Hardware and Software
 Any materials, microcontrollers, and programming languages can be used by teams, enabling complete creativity in coding and electromechanical design.
