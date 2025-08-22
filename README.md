@@ -12,20 +12,26 @@
 * `src` contains code of control software for all components which were programmed to participate in the competition
 * `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
 * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
-
 # Table of Contents
 
+## 📘 Introduction
 - [🏁 Competition Overview](#-competition-overview)
 - [👥 Who Are We?](#-who-are-we)
 - [🎯 Robot Aims and Objectives](#-robot-aims-and-objectives)
+
+## 🧠 Technical Design
 - [📐 Design Strategy](#-design-strategy)
 - [🔧 Hardware Components](#-hardware-components)
 - [🧠 Software Architecture](#-software-architecture)
+
+## 🛠️ Development Process
 - [🛠️ Assembly Process](#️-assembly-process)
-- [📸 Robot Photos](#-robot-photos)
 - [🧪 Testing and Iteration](#-testing-and-iteration)
 - [📊 Performance Metrics](#-performance-metrics)
+
+## 🗂️ Documentation
 - [📁 File Structure](#-file-structure)
+- [📸 Robot Photos](#-robot-photos)
 - [🔍 Future Improvements](#-future-improvements)
 - [🧑‍🏫 Lessons Learned](#-lessons-learned)
 - [📚 References](#-references)
@@ -33,20 +39,19 @@
 ---
 
 ## 🏁 Competition Overview
-_Description of the WRO Future Engineers category and this season’s theme._
+_TBD_
 
 ## 👥 Who Are We?
-_Introduce the team members, their roles, and your institution._
+_TBD_
 
 ## 🎯 Robot Aims and Objectives
-_Clear goals and what the robot is built to achieve in the competition._
+_TBD_
 
 ## 📐 Design Strategy
-_High-level engineering decisions, CAD inspiration, simulations, etc._
+_TBD_
 
 ## 🔧 Hardware Components
-_List of motors, sensors, chassis material, batteries, etc._
-# Engineering Material
+_TBD_# Engineering Material
 - Raspberri pi 4
 - ESP-WROOM-32
 - ESP32 expansion board
@@ -58,30 +63,31 @@ _List of motors, sensors, chassis material, batteries, etc._
 - ultrasonics : we used 3 ultrasonics 2 on the sides and 1 in the front
 
 ## 🧠 Software Architecture
-_Languages, libraries, algorithms, and control systems used._
+_TBD_
 
 ## 🛠️ Assembly Process
-_Step-by-step or phases of building the robot._
-
-## 📸 Robot Photos
-_Insert images of your robot in various stages._
+_TBD_
 
 ## 🧪 Testing and Iteration
-_Explain testing environments, failures, and changes._
+_TBD_
 
 ## 📊 Performance Metrics
-_How you evaluate success (e.g., lap time, wall detection accuracy)._
+_TBD_
 
 ## 📁 File Structure
-_Overview of the repo’s folder and file layout._
+_TBD_
+
+## 📸 Robot Photos
+_TBD_
 
 ## 🔍 Future Improvements
-_Features to be added, mechanical fixes, or code upgrades._
+_TBD_
 
 ## 🧑‍🏫 Lessons Learned
-_What the team learned technically and personally._
+_TBD_
 
 ## 📚 References
-_Links to papers, tutorials, or components you relied on._
+_TBD_
+
 
 
