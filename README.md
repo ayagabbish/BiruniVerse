@@ -13,25 +13,26 @@
 * `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
 * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
 
-| **Section**                      | **Description** |
-|----------------------------------|-----------------|
-| **🔷 Project Overview**          |                 |
-| [Introduction](#introduction)    | Technical overview of the code structure, modules, and uploading process. |
-| [Video Demonstration](#video-demonstration) | Link to the official driving demo video of the robot. |
+# Table of Contents
 
-| **👥 Team**                      |                 |
-| [Team Photos](#team-photos)      | Includes official and funny photos of the full team. |
-
-| **🤖 The Robot**                |                 |
-| [Vehicle Photos](#vehicle-photos) | Shows 6 detailed images of the robot from all sides, including top and bottom. |
-| [Schematics](#schematics)        | Diagrams illustrating electronic and mechanical connections of the robot. |
-| [3D/CNC Models](#3dcnc-models)   | Files for 3D printing, laser cutting, or CNC machine use. |
-
-| **💻 Code & Software**          |                 |
-| [Source Code](#source-code)      | Contains code for all programmed components used in the vehicle. |
-
-| **📄 Documentation**            |                 |
-| [Other Documentation](#other-documentation) | Includes datasets, connection guides, protocols, and specifications. |
+1. [🏁 Competition Overview](#-competition-overview)
+2. [👥 Who Are We?](#-who-are-we)
+3. [🎯 Robot Aims and Objectives](#-robot-aims-and-objectives)
+4. [🧠 Design Philosophy](#-design-philosophy)
+5. [🛠️ Hardware Components](#-hardware-components)
+6. [💻 Software Architecture](#-software-architecture)
+7. [📐 CAD & Mechanical Design](#-cad--mechanical-design)
+8. [⚙️ Electronics and Wiring](#-electronics-and-wiring)
+9. [🚘 Motion Planning & Navigation](#-motion-planning--navigation)
+10. [👁️ Sensor Integration](#-sensor-integration)
+11. [🎮 Control Algorithms](#-control-algorithms)
+12. [📊 Performance Metrics](#-performance-metrics)
+13. [🧪 Testing and Iteration](#-testing-and-iteration)
+14. [🐛 Challenges & Lessons Learned](#-challenges--lessons-learned)
+15. [📷 Media Gallery](#-media-gallery)
+16. [📁 Project Structure](#-project-structure)
+17. [🔗 Useful Links](#-useful-links)
+18. [📄 License](#-license)
 
 ## Introduction
 
