@@ -42,8 +42,8 @@
 
 <h1>Competition Overview: WRO 2025 – Future Engineers</h1>
 
-<div style="float: right; margin: 10px 0px 10px 10px; width: 100px;">
-  <img src="wrologo.PNG" alt="WRO Logo" style="width: 50%;">
+<div style="float: left; margin: 10px 0px 10px 10px; width: 100px;">
+  <img src="wrologo.PNG" alt="WRO Logo" style="width: 25%;">
 </div>
 
 Students from all over the world come together to design, program, and test autonomous robots in the World Robot Olympiad (WRO), which is regarded as one of the top international robotics competitions. The Future Engineers challenge has a unique place in this international event because it encourages participants to work with cutting-edge robotics while firmly establishing the experience in useful, real-world engineering.
