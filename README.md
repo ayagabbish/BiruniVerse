@@ -15,25 +15,64 @@
 
 # Table of Contents
 
-1. [🏁 Competition Overview](#-competition-overview)
-2. [👥 Who Are We?](#-who-are-we)
-3. [🎯 Robot Aims and Objectives](#-robot-aims-and-objectives)
-4. [🧠 Design Philosophy](#-design-philosophy)
-5. [🛠️ Hardware Components](#-hardware-components)
-6. [💻 Software Architecture](#-software-architecture)
-7. [📐 CAD & Mechanical Design](#-cad--mechanical-design)
-8. [⚙️ Electronics and Wiring](#-electronics-and-wiring)
-9. [🚘 Motion Planning & Navigation](#-motion-planning--navigation)
-10. [👁️ Sensor Integration](#-sensor-integration)
-11. [🎮 Control Algorithms](#-control-algorithms)
-12. [📊 Performance Metrics](#-performance-metrics)
-13. [🧪 Testing and Iteration](#-testing-and-iteration)
-14. [🐛 Challenges & Lessons Learned](#-challenges--lessons-learned)
-15. [📷 Media Gallery](#-media-gallery)
-16. [📁 Project Structure](#-project-structure)
-17. [🔗 Useful Links](#-useful-links)
-18. [📄 License](#-license)
+- [🏁 Competition Overview](#-competition-overview)
+- [👥 Who Are We?](#-who-are-we)
+- [🎯 Robot Aims and Objectives](#-robot-aims-and-objectives)
+- [📐 Design Strategy](#-design-strategy)
+- [🔧 Hardware Components](#-hardware-components)
+- [🧠 Software Architecture](#-software-architecture)
+- [🛠️ Assembly Process](#️-assembly-process)
+- [📸 Robot Photos](#-robot-photos)
+- [🧪 Testing and Iteration](#-testing-and-iteration)
+- [📊 Performance Metrics](#-performance-metrics)
+- [📁 File Structure](#-file-structure)
+- [🔍 Future Improvements](#-future-improvements)
+- [🧑‍🏫 Lessons Learned](#-lessons-learned)
+- [📚 References](#-references)
 
+---
+
+## 🏁 Competition Overview
+_Description of the WRO Future Engineers category and this season’s theme._
+
+## 👥 Who Are We?
+_Introduce the team members, their roles, and your institution._
+
+## 🎯 Robot Aims and Objectives
+_Clear goals and what the robot is built to achieve in the competition._
+
+## 📐 Design Strategy
+_High-level engineering decisions, CAD inspiration, simulations, etc._
+
+## 🔧 Hardware Components
+_List of motors, sensors, chassis material, batteries, etc._
+
+## 🧠 Software Architecture
+_Languages, libraries, algorithms, and control systems used._
+
+## 🛠️ Assembly Process
+_Step-by-step or phases of building the robot._
+
+## 📸 Robot Photos
+_Insert images of your robot in various stages._
+
+## 🧪 Testing and Iteration
+_Explain testing environments, failures, and changes._
+
+## 📊 Performance Metrics
+_How you evaluate success (e.g., lap time, wall detection accuracy)._
+
+## 📁 File Structure
+_Overview of the repo’s folder and file layout._
+
+## 🔍 Future Improvements
+_Features to be added, mechanical fixes, or code upgrades._
+
+## 🧑‍🏫 Lessons Learned
+_What the team learned technically and personally._
+
+## 📚 References
+_Links to papers, tutorials, or components you relied on._
 ## Introduction
 
 _This section should explain what your codebase includes: the main modules (like motor control, line following, lap counter, etc.), how each is linked to physical components (like servo, motor, sensors), and instructions on compiling/uploading the code (e.g., using Arduino IDE or PlatformIO)._
