@@ -42,7 +42,7 @@
 
 <h1>Competition Overview: WRO 2025 – Future Engineers</h1>
 
-<div style="float: right; margin: 20px 0px 20px 20px; width: 120px;">
+<div style="float: right; margin: 20px 0px 20px 20px; width: 100px;">
   <img src="wrologo.PNG" alt="WRO Logo" style="width: 100%;">
 </div>
 
