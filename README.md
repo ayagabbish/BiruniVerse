@@ -43,25 +43,26 @@
 Students from all over the world come together to design, program, and test autonomous robots in the World Robot Olympiad (WRO), which is regarded as one of the top international robotics competitions. The Future Engineers challenge has a unique place in this international event because it encourages participants to work with cutting-edge robotics while firmly establishing the experience in useful, real-world engineering.
 
 <h1 align="left">
-  🏁 Competition Overview: WRO 2025 – Future Engineers
-  <img src="wrologo.PNG" alt="WRO Logo" width="80" align="right">
+  Competition Overview: WRO 2025 – Future Engineers
+  <img src="wrologo.PNG" alt="WRO Logo" width="80" align="right" style="margin-top: 15px;">
 </h1>
 
-###  Autonomous Driving Focus
+Students from all over the world come together to design, program, and test autonomous robots in the World Robot Olympiad (WRO), which is regarded as one of the top international robotics competitions. The Future Engineers challenge has a unique place in this international event because it encourages participants to work with cutting-edge robotics while firmly establishing the experience in useful, real-world engineering.
+
+### Autonomous Driving Focus
 Each team in the Future Engineers category uses onboard sensors and control logic to create a self-driving car that can navigate a randomly laid out track. 
 
-###  Adaptable Hardware and Software
+### Adaptable Hardware and Software
 Any materials, microcontrollers, and programming languages can be used by teams, enabling complete creativity in coding and electromechanical design.
 
-###  Compact Size Requirements
+### Compact Size Requirements
 For the 2025 season, robots must not exceed 30 cm × 20 cm × 30 cm in size.
 
-###  The Process of Educational Engineering
+### The Process of Educational Engineering
 The team's engineering documentation, which includes design choices, system diagrams, implementation procedures, and technical justifications shared on open platforms like GitHub, is evaluated by the competition in addition to the robot's performance.
 
-###  Real-World Engineering Experience
+### Real-World Engineering Experience
 From ideation and prototyping to testing and solution presentation, Future Engineers replicates a real engineering workflow. Students get a firsthand look at what it's like to innovate and deal with uncertainty under actual technical limitations.
-
 
 ##  Who Are We?
 _TBD_
