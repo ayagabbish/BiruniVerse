@@ -41,7 +41,7 @@
 <table>
   <tr>
     <td style="width: 130px;">
-      <img src="wrologo.PNG" alt="WRO Logo" width="120">
+      <img src="images/wro-logo.jpeg" alt="WRO Logo" width="120">
     </td>
     <td>
 
@@ -65,6 +65,8 @@ From ideation and prototyping to testing and solution presentation, Future Engin
     </td>
   </tr>
 </table>
+
+
 ##  Who Are We?
 _TBD_
 
