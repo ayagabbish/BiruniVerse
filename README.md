@@ -46,6 +46,16 @@ _High-level engineering decisions, CAD inspiration, simulations, etc._
 
 ## 🔧 Hardware Components
 _List of motors, sensors, chassis material, batteries, etc._
+# Engineering Material
+- Raspberri pi 4
+- ESP-WROOM-32
+- ESP32 expansion board
+- H-bridge
+- DC Mototr
+- Servo Motor
+- Infrared Sensor
+- Color Sensor
+- ultrasonics : we used 3 ultrasonics 2 on the sides and 1 in the front
 
 ## 🧠 Software Architecture
 _Languages, libraries, algorithms, and control systems used._
@@ -73,44 +83,5 @@ _What the team learned technically and personally._
 
 ## 📚 References
 _Links to papers, tutorials, or components you relied on._
-## Introduction
 
-_This section should explain what your codebase includes: the main modules (like motor control, line following, lap counter, etc.), how each is linked to physical components (like servo, motor, sensors), and instructions on compiling/uploading the code (e.g., using Arduino IDE or PlatformIO)._
 
-## Team Photos
-
-_A folder with two photos: one official and one funny showing the whole team._
-
-## Vehicle Photos
-
-_Six images showing the vehicle from all angles: front, back, left, right, top, and bottom._
-
-## Video Demonstration
-
-_Link to a demo video showing your robot navigating as per the task requirements._
-
-## Schematics
-
-_Images (PNG/JPEG/PDF) of your electromechanical diagrams showing how every component is wired or connected._
-
-## Source Code
-
-_All Arduino/Python/C++ code and libraries for sensors, motors, servos, etc._
-
-## 3D/CNC Models
-
-_STL, DXF, or other model files used for manufacturing vehicle parts. If not used, this section can be deleted._
-
-## Other Documentation
-
-_Includes manuals, connection instructions, SBC/ESP32 guides, datasets, protocols, or additional helpful content._
-# Engineering Material
-- Raspberri pi 4
-- ESP-WROOM-32
-- ESP32 expansion board
-- H-bridge
-- DC Mototr
-- Servo Motor
-- Infrared Sensor
-- Color Sensor
-- ultrasonics : we used 3 ultrasonics 2 on the sides and 1 in the front
