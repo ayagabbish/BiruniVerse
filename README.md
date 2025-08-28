@@ -58,7 +58,29 @@ The team's engineering documentation, which includes design choices, system diag
 From ideation and prototyping to testing and solution presentation, Future Engineers replicates a real engineering workflow. Students get a firsthand look at what it's like to innovate and deal with uncertainty under actual technical limitations.
 
 ##  Who Are We?
-_TBD_
+### 👩‍💻 Who Are We?
+
+---
+
+**Alma ALKHADER**  
+_Computer Engineer_  
+<img src="images/sama.png" width="160">  
+**Role:** Vision System, AI Integration, Obstacle Logic
+
+---
+
+**AYA Ghabish**  
+_Mechatronics Engineer_  
+_Mechanical Engineer_  
+<img src="images/aya.png" width="160">  
+**Role:** Chassis Design, Steering, Frame Assembly
+
+---
+
+**Sara Afifi**  
+_Mechanical Engineer_ 
+<img src="images/rowan.png" width="160">  
+**Role:** Motor Control, Sensor Fusion, System Integration
 
 ##  Robot Aims and Objectives
 _TBD_
