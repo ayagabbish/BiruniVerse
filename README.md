@@ -58,29 +58,20 @@ The team's engineering documentation, which includes design choices, system diag
 From ideation and prototyping to testing and solution presentation, Future Engineers replicates a real engineering workflow. Students get a firsthand look at what it's like to innovate and deal with uncertainty under actual technical limitations.
 
 ##  Who Are We?
-### 👩‍💻 Who Are We?
 
----
+**spring 2025 – We came together.**  
+Three students from different engineering backgrounds united with one goal: build a robot that goes beyond expectations.
 
-**Alma ALKHADER**  
-_Computer Engineer_  
-<img src="images/sama.png" width="160">  
-**Role:** Vision System, AI Integration, Obstacle Logic
+-  **Alma Alkhader** – _Computer Engineer_  
+  Vision, AI, obstacle logic.
 
----
+-  **Aya Ghabish** – _Mechanical Engineer_  
+  Design, steering, wheel alignment.
 
-**AYA Ghabish**  
-_Mechatronics Engineer_  
-_Mechanical Engineer_  
-<img src="images/aya.png" width="160">  
-**Role:** Chassis Design, Steering, Frame Assembly
+- 🤖 **Sara Afifi** – _Mechatronics Engineer_  
+  Sensors, motor control, system integration.
 
----
-
-**Sara Afifi**  
-_Mechanical Engineer_ 
-<img src="images/rowan.png" width="160">  
-**Role:** Motor Control, Sensor Fusion, System Integration
+Together, we are **biruniVerse** — inspired by Birzeit and destined for the universe.
 
 ##  Robot Aims and Objectives
 _TBD_
