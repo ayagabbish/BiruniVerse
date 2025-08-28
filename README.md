@@ -63,13 +63,13 @@ From ideation and prototyping to testing and solution presentation, Future Engin
 Three students from different engineering backgrounds united with one goal: build a robot that goes beyond expectations.
 
 -  **Alma Alkhader** – _Computer Engineer_  
-  Vision, AI, obstacle logic.
+
 
 -  **Aya Ghabish** – _Mechanical Engineer_  
-  Design, steering, wheel alignment.
 
-- 🤖 **Sara Afifi** – _Mechatronics Engineer_  
-  Sensors, motor control, system integration.
+
+- **Sara Afifi** – _Mechatronics Engineer_  
+
 
 Together, we are **biruniVerse** — inspired by Birzeit and destined for the universe.
 
