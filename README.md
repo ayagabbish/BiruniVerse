@@ -74,7 +74,14 @@ Three students from different engineering backgrounds united with one goal: buil
 Together, we are **biruniVerse** — inspired by Birzeit and destined for the universe.
 
 ##  Robot Aims and Objectives
-_TBD_
+
+- Detect obstacles using sensors and camera.  
+- Avoid obstacles from the correct side.  
+- Drive on its own without help.  
+- Fix itself if it crashes or gets stuck.  
+- Count laps and stop after finishing.  
+- Stay inside size and hardware limits.
+
 
 ##  Design Strategy
 _TBD_
