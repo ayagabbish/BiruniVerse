@@ -40,8 +40,6 @@
 
 ## Competition Overview
 
-# Competition Overview
-
 The World Robot Olympiad (WRO) challenges students to design and build autonomous robots.  
 In the **Future Engineers** category, teams develop a self-driving car capable of navigating a randomized track using onboard sensors and control logic.  
 
@@ -68,6 +66,18 @@ Three students from different engineering backgrounds united with one goal: buil
 
 
 Together, we are **biruniVerse** — inspired by Birzeit and destined for the universe.
+
+## Why BiruniVerse?
+
+Our name **BiruniVerse** is built on two roots:  
+
+- **Biruni** → A tribute to *Al-Biruni*, the great Muslim scholar and polymath, known for his groundbreaking contributions to science, astronomy, mathematics, and engineering. His curiosity and drive for discovery inspire us to push the limits of knowledge.  
+- **Birzeituni (birUni)** → A proud reference to *Birzeit University*, our home, where this project was born. It connects our identity as students to a tradition of learning and innovation.  
+
+The second part of our name, **Universe**, reflects our belief that through projects like these we are not only building robots — we are building the skills, imagination, and courage to reach for the universe itself.  
+
+**BiruniVerse = Biruni + Birzeituni + Universe**  
+A name that ties together heritage, identity, and aspiration.  
 
 ##  Robot Aims and Objectives
 
