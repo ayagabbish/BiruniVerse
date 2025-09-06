@@ -40,13 +40,18 @@
 
 ## Competition Overview
 
+# Competition Overview
+
 The World Robot Olympiad (WRO) challenges students to design and build autonomous robots.  
 In the **Future Engineers** category, teams develop a self-driving car capable of navigating a randomized track using onboard sensors and control logic.  
 
 The robot must be compact (**30 × 20 × 30 cm**) and operate fully without remote control.  
 The goal is to replicate real-world autonomous driving, where the robot detects its environment, makes decisions, and completes laps reliably.  
 
-Success is measured by both the robot’s performance on the track and the quality of the **engineering documentation** shared on GitHub, reflecting the full journey from design to competition-ready system.
+Success is measured by both the robot’s performance on the track and the quality of the **engineering documentation** shared on GitHub, reflecting the full journey from design to competition-ready system.  
+
+We chose to document our journey in the form of a story — step by step, from forming our team to building our final robot.  
+Because in every line of code, every printed part, and every late-night fix, there is a story worth telling: a story of ideas turning into motion, and motion turning into achievement.  
 
 ##  Who Are We?
 
