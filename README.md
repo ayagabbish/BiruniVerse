@@ -79,6 +79,15 @@ The second part of our name, **Universe**, reflects our belief that through proj
 **BiruniVerse = Biruni + Birzeituni + Universe**  
 A name that ties together heritage, identity, and aspiration.  
 
+## Understanding the Challenge
+
+Our journey began with the WRO 2025 Future Engineers rulebook, the document that defines every detail of the competition. Reading it gave us a clear picture of what the competition expected:  
+a self-driving car that can complete laps on a randomized track, obey traffic rules with red and green pillars — all without human intervention.
+
+After studying the rules, we joined training sessions at our university. There we met fellow participants, last year’s winners, coaches, and mentors. They encouraged us to ask questions, to experiment, and most importantly, to approach this as an engineering learning process, not just a race.
+
+From there, we started exploring strategies and technical designs. We looked deeper into possible hardware parts that could be used, and we began asking specific questions to define our goals and shape our approach to solving the challenge.
+
 ##  Robot Aims and Objectives
 
 - Detect obstacles using sensors and camera.  
