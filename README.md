@@ -40,22 +40,13 @@
 
 ## Competition Overview
 
-Students from all over the world come together to design, program, and test autonomous robots in the World Robot Olympiad (WRO), which is regarded as one of the top international robotics competitions. The Future Engineers challenge has a unique place in this international event because it encourages participants to work with cutting-edge robotics while firmly establishing the experience in useful, real-world engineering.
+The World Robot Olympiad (WRO) challenges students to design and build autonomous robots.  
+In the **Future Engineers** category, teams develop a self-driving car capable of navigating a randomized track using onboard sensors and control logic.  
 
-### Autonomous Driving Focus
-Each team in the Future Engineers category uses onboard sensors and control logic to create a self-driving car that can navigate a randomly laid out track. 
+The robot must be compact (**30 × 20 × 30 cm**) and operate fully without remote control.  
+The goal is to replicate real-world autonomous driving, where the robot detects its environment, makes decisions, and completes laps reliably.  
 
-### Adaptable Hardware and Software
-Any materials, microcontrollers, and programming languages can be used by teams, enabling complete creativity in coding and electromechanical design.
-
-### Compact Size Requirements
-For the 2025 season, robots must not exceed 30 cm × 20 cm × 30 cm in size.
-
-### The Process of Educational Engineering
-The team's engineering documentation, which includes design choices, system diagrams, implementation procedures, and technical justifications shared on open platforms like GitHub, is evaluated by the competition in addition to the robot's performance.
-
-### Real-World Engineering Experience
-From ideation and prototyping to testing and solution presentation, Future Engineers replicates a real engineering workflow. Students get a firsthand look at what it's like to innovate and deal with uncertainty under actual technical limitations.
+Success is measured by both the robot’s performance on the track and the quality of the **engineering documentation** shared on GitHub, reflecting the full journey from design to competition-ready system.
 
 ##  Who Are We?
 
