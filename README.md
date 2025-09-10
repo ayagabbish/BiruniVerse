@@ -102,7 +102,7 @@ From there, we started exploring strategies and technical designs. We looked dee
 _TBD_
 
 ##  Hardware Components
-_TBD_# Engineering Material
+# Engineering Material
 - Raspberri pi 4
 - ESP-WROOM-32
 - ESP32 expansion board
