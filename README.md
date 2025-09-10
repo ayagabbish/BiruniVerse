@@ -54,7 +54,7 @@ Because in every line of code, every printed part, and every late-night fix, the
 ##  Who Are We?
 
 **spring 2025 – We came together.**  
-Three students from different engineering backgrounds united with one goal: build a robot that goes beyond expectations.
+Three students from different majors united with one goal: build a robot that goes beyond expectations.
 
 -  **Alma Alkhader** – _Computer Engineer_  
 
@@ -62,7 +62,7 @@ Three students from different engineering backgrounds united with one goal: buil
 -  **Aya Ghabbeish** – _Mechatronics Engineer_  
 
 
-- **Sara Afifi** –Mechanical Engineer__  
+- **Sara Afifi** – _Mechanical Engineer_  
 
 
 Together, we are **biruniVerse** — inspired by Birzeit and destined for the universe.
