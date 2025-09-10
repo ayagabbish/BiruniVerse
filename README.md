@@ -59,10 +59,10 @@ Three students from different engineering backgrounds united with one goal: buil
 -  **Alma Alkhader** – _Computer Engineer_  
 
 
--  **Aya Ghabish** – _Mechanical Engineer_  
+-  **Aya Ghabbeish** – _Mechatronics Engineer_  
 
 
-- **Sara Afifi** – _Mechatronics Engineer_  
+- **Sara Afifi** –Mechanical Engineer__  
 
 
 Together, we are **biruniVerse** — inspired by Birzeit and destined for the universe.
