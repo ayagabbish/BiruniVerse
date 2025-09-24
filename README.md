@@ -101,7 +101,11 @@ From there, we started exploring strategies and technical designs. We looked dee
 ##  Design Strategy
 _TBD_
 
-##  Hardware Components
+###  Hardware Design
+##  Design Strategy
+For the foundation of our robot, we chose a standard plastic chassis
+
+
 ### Engineering Material
 - Raspberri pi 4
 - ESP-WROOM-32
