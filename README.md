@@ -97,10 +97,6 @@ From there, we started exploring strategies and technical designs. We looked dee
 - Count laps and stop after finishing.  
 - Stay inside size and hardware limits.
 
-
-##  Design Strategy
-_TBD_
-
 ## Hardware Design
 ###  Design Strategy
 #### 1. chassis Plate:
@@ -129,7 +125,7 @@ for the cutting process, we used a **silverflo 928D tool soldering and cutting t
 ---
 
 
-#### 2. wheels:**
+#### 2. wheels:
 
 ##### Front Wheels
 
@@ -140,23 +136,31 @@ These wheels consisted of:
 - **Plastic Hub**: inner white rim that holds the tire and connects to the axle.  
 
 <p align="center">
-  <img src="other/cfront_wheel.PNG" alt="frontwheelpic" width="300"/>
+  <img src="other/front_wheel.jpg" alt="frontwheelpic" width="300"/>
 </p>
-#### 2. Problem – Wobbling During Rotation
+
+##### Problem – Wobbling During Rotation
 During testing, we noticed a **wobbling problem** in the wheels.  
 
 The issue was caused by:
 - Loose fit between the wheel hub and the axle.  
 - Lack of a proper rotational support structure.  
 
-This wobbling reduced **stability, steering precision, and vehicle speed**.  
+This wobbling reduced **stability, steering precision, and vehicle speed**.
+<p align="center">
+  <img src="other/wobbling.jpg" alt="wobblingwheelspic" width="300"/>
+</p>
 
 
 
-#### 3. Solution – Adding Bearings
+##### Solution – Adding Bearings
 To eliminate wobbling, we modified the wheels to include **ball bearings** (skateboard-style, model 608Z).
 
-##### Why Bearings?
+<p align="center">
+  <img src="other/bearing.jpg" alt="bearingspic" width="300"/>
+</p>
+
+###### Why Bearings?
 - Bearings allow the wheel to rotate smoothly around the axle.  
 - They reduce friction, which increases efficiency.  
 - They keep the wheel aligned and stable, preventing wobble.  
