@@ -101,9 +101,10 @@ From there, we started exploring strategies and technical designs. We looked dee
 ##  Design Strategy
 _TBD_
 
-###  Hardware Design
-##  Design Strategy
+## Hardware Design
+### Design Strategy
 For the foundation of our robot, we chose a standard plastic chassis
+![Robot Base](robotbase.png)
 
 
 ### Engineering Material
