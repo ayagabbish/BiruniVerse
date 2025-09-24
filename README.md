@@ -120,6 +120,9 @@ However, our structural requirements were not entirely satisfied by that base, s
 
 This picture shows how the chassis was cut to fit the wheels properly.
 for the cutting process, we used a **silverflo 928D tool soldering and cutting tool**, we relied on its heated tip and fine control to carefully shape the chassis.
+<p align="center">
+  <img src="other/cutting_tool.PNG" alt="cutbase pic" width="300"/>
+</p>
 
 
 
