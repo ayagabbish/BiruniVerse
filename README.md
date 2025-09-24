@@ -125,6 +125,10 @@ for the cutting process, we used a **silverflo 928D tool soldering and cutting t
   <img src="other/cutting_tool.PNG" alt="cutbase pic" width="300"/>
 </p>
 
+
+---
+
+
 #### 2. wheels:**
 
 ##### Front Wheels
@@ -136,9 +140,6 @@ These wheels consisted of:
 - **Plastic Hub**: inner white rim that holds the tire and connects to the axle.  
 
 
-
----
-
 #### 2. Problem – Wobbling During Rotation
 During testing, we noticed a **wobbling problem** in the wheels.  
 
@@ -148,7 +149,7 @@ The issue was caused by:
 
 This wobbling reduced **stability, steering precision, and vehicle speed**.  
 
----
+
 
 #### 3. Solution – Adding Bearings
 To eliminate wobbling, we modified the wheels to include **ball bearings** (skateboard-style, model 608Z).
