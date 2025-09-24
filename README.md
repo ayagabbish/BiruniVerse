@@ -104,7 +104,20 @@ _TBD_
 ## Hardware Design
 ### Design Strategy
 For the foundation of our robot, we chose a standard plastic chassis
-![Robot Base](robotbase.png)
+##  Design Strategy
+For the foundation of our robot, we chose a standard plastic chassis
+
+<p align="center">
+  <img src="robotbase.PNG" alt="robotbase pic" width="300"/>
+</p>
+The reason behind choosing this base was driven by simplicity and practicality, it offered a flat, stable surface with numerous mounting holes, which helped with arranging and securing components.
+
+However, our structural requirements were not entirely satisfied by that base, so we had to modify it to fit our design by:
+**Custom Cuts**: we had to make new holes and gaps in the base to allowcleaner wire connection between the the upper controllers and the lower motors. Additionally, we made extra openings near the back to give the rear wheels enough clearance, and prevent them from hitting the base.
+
+<p align="center">
+  <img src="cutbase.PNG" alt="cutbase pic" width="300"/>
+</p>
 
 
 ### Engineering Material
