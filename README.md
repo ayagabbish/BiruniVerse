@@ -139,7 +139,9 @@ These wheels consisted of:
 - **Outer Tire**: black rubber with tread for grip.  
 - **Plastic Hub**: inner white rim that holds the tire and connects to the axle.  
 
-
+<p align="center">
+  <img src="other/cfront_wheel.PNG" alt="frontwheelpic" width="300"/>
+</p>
 #### 2. Problem – Wobbling During Rotation
 During testing, we noticed a **wobbling problem** in the wheels.  
 
