@@ -102,9 +102,10 @@ From there, we started exploring strategies and technical designs. We looked dee
 _TBD_
 
 ## Hardware Design
-### Design Strategy
-For the foundation of our robot, we chose a standard plastic chassis
-##  Design Strategy
+###  Design Strategy
+#### 1. chassis Plate:
+
+
 For the foundation of our robot, we chose a standard plastic chassis
 
 <p align="center">
@@ -123,6 +124,40 @@ for the cutting process, we used a **silverflo 928D tool soldering and cutting t
 <p align="center">
   <img src="other/cutting_tool.PNG" alt="cutbase pic" width="300"/>
 </p>
+
+#### 2. wheels:**
+
+##### Front Wheels
+
+##### Starting Point – Store-Bought Wheels
+We began with standard RC-style wheels that came with our chassis.  
+These wheels consisted of:
+- **Outer Tire**: black rubber with tread for grip.  
+- **Plastic Hub**: inner white rim that holds the tire and connects to the axle.  
+
+
+
+---
+
+#### 2. Problem – Wobbling During Rotation
+During testing, we noticed a **wobbling problem** in the wheels.  
+
+The issue was caused by:
+- Loose fit between the wheel hub and the axle.  
+- Lack of a proper rotational support structure.  
+
+This wobbling reduced **stability, steering precision, and vehicle speed**.  
+
+---
+
+#### 3. Solution – Adding Bearings
+To eliminate wobbling, we modified the wheels to include **ball bearings** (skateboard-style, model 608Z).
+
+##### Why Bearings?
+- Bearings allow the wheel to rotate smoothly around the axle.  
+- They reduce friction, which increases efficiency.  
+- They keep the wheel aligned and stable, preventing wobble.  
+
 
 
 
