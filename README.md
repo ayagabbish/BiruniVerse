@@ -148,7 +148,7 @@ The issue was caused by:
 
 This wobbling reduced **stability, steering precision, and vehicle speed**.
 <p align="center">
-  <img src="other/wobbling.jpg" alt="wobblingwheelspic" width="300"/>
+  <img src="other/wobbling.jpeg" alt="wobblingwheelspic" width="300"/>
 </p>
 
 
@@ -157,7 +157,7 @@ This wobbling reduced **stability, steering precision, and vehicle speed**.
 To eliminate wobbling, we modified the wheels to include **ball bearings** (skateboard-style, model 608Z).
 
 <p align="center">
-  <img src="other/bearing.jpg" alt="bearingspic" width="300"/>
+  <img src="other/bearing.jpeg" alt="bearingspic" width="300"/>
 </p>
 
 ###### Why Bearings?
