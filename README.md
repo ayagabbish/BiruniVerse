@@ -1,6 +1,6 @@
 <h1 align="center">BiruniVerse Team</h1>
 <p align="center">
-  <img src="logo2.PNG" alt="BiruniVerse Logo" width="300"/>
+  <img src="other/logo2.PNG" alt="BiruniVerse Logo" width="300"/>
 
 >  This repository documents the technical design, engineering processes, and development stages of our autonomous vehicle prototype. Built by three passionate engineering students, this robot is our gateway to the universe. United by creativity and curiosity, and supported by Birzeit University, we proudly present our journey in the WRO Future Engineers Challenge 2025.
 ## Content
@@ -108,7 +108,7 @@ For the foundation of our robot, we chose a standard plastic chassis
 For the foundation of our robot, we chose a standard plastic chassis
 
 <p align="center">
-  <img src="robotbase.PNG" alt="robotbase pic" width="300"/>
+  <img src="other/robotbase.PNG" alt="robotbase pic" width="300"/>
 </p>
 The reason behind choosing this base was driven by simplicity and practicality, it offered a flat, stable surface with numerous mounting holes, which helped with arranging and securing components.
 
@@ -116,7 +116,7 @@ However, our structural requirements were not entirely satisfied by that base, s
 **Custom Cuts**: we had to make new holes and gaps in the base to allowcleaner wire connection between the the upper controllers and the lower motors. Additionally, we made extra openings near the back to give the rear wheels enough clearance, and prevent them from hitting the base.
 
 <p align="center">
-  <img src="cutbase.PNG" alt="cutbase pic" width="300"/>
+  <img src="other/cutbase.PNG" alt="cutbase pic" width="300"/>
 </p>
 
 
