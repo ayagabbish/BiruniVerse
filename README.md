@@ -278,12 +278,11 @@ These are the toy car gears we used as inspiration for our gearbox design:
  <img src="other/newgearmodel2.png" width="200"/ > 
 </p>
 
-final setup:
+final setup :
 <p align="center">
  <img src="other/newgear1.jpg" width="200"/ > 
 </p>
-
-
+These picture were taken before replacing the DC motor.
 These specifications guided the CAD modeling of the gears and ensured they were compatible with both our motor shaft and the required torque transfer for the robot.
 
 
