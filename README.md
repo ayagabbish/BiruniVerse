@@ -238,6 +238,8 @@ Our robot uses a servo-based steering system inspired by real car steering (Acke
 | **Steering Mount Bracket (x2)** | **Purpose:** Connects the steering knuckle to the chassis with a vertical screw. <br> **How it works:** Acts as the pivot base for the knuckle. <br> **Why needed:** Keeps the knuckle rigidly fixed in place, allows free pivoting around the screw without wobbling. |  <img src="other/steeringmountbracket.jpg" width="200"/> |
 | **Spacer Block (x2)** | **Purpose:** Provides the required vertical clearance between the mount bracket and the knuckle. <br> **How it works:** Sits between the mount bracket and the steering knuckle; the screw passes through it. <br> **Why needed:** Prevents the knuckle from rubbing against the mount bracket. Aligns the linkage rod and tie rod at the correct height for smooth steering geometry. | <img src="other/spacer.jpg" width="200"/> |
 
+
+
 ---
 
 #### 4. Gearbox:
@@ -284,6 +286,26 @@ final setup :
 </p>
 These picture were taken before replacing the DC motor.
 These specifications guided the CAD modeling of the gears and ensured they were compatible with both our motor shaft and the required torque transfer for the robot.
+
+---
+
+#### 5.controllers
+## Controllers
+
+The microcontroller is the **brain of the robot**, so our main priority was choosing the best one to do the job while also being cost-effective.
+
+- Our first option was the **Arduino Nano 33 BLE Sense Rev2**, which supports machine learning models and is affordable.  
+  However, we couldn’t find it locally in Palestine, so we decided to replace it with a **Raspberry Pi**.
+
+- When comparing Raspberry Pi versions, we eliminated the 5th version because of **power limitations**.  
+  The 4th version had better internet resources, making it easier to learn, but introduced new challenges:  
+  the motors and sensors required different voltages than the Raspberry Pi. Using multiple voltage regulators seemed risky.
+
+- To solve this, we decided on a **hybrid approach**:  
+  - Use an **ESP32** connected to the **H-bridge** to handle motors and sensors, ensuring stable voltage regulation.  
+  - Use the **Raspberry Pi 4** exclusively for **object detection**, reducing its workload and improving efficiency.
+
+This combination allowed us to balance cost, availability, and performance while ensuring smooth operation of both control and perception tasks.
 
 
 
