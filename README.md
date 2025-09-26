@@ -185,18 +185,35 @@ To eliminate wobbling, we modified the wheels to include **ball bearings** (skat
    - The threaded axle connects to the chassis, supported by mounts.
      
 <p align="center">
-  <img src="wheel2.png" alt="bearingspic" width="400" length="200"/>
+  <img src="other/wheel2.PNG" alt="bearingspic" width="400" length="200"/>
 </p>
 *Outside view showing tire, hub, bearing, axle, and nuts.*  
 <p align="center">
-  <img src="wheel.JPG" alt="bearingspic" width="400" length="200"/>
+  <img src="other/wheel.JPG" alt="bearingspic" width="400" length="200"/>
 </p>
 *Inside view of the same assembly.*  
 
+We used this same technique for **both front wheels**, ensuring stability and smooth steering.
 
 ---
 
-We used this same technique for **both front wheels**, ensuring stability and smooth steering.
+##### rear Wheels
+
+For the rear wheels, we initially planned to use wheels similar to the front ones. However, after upgrading to a **stronger DC motor**, we faced an issue: the motor’s torque and size caused the motor to hit the ground.  
+
+To solve this, we switched to **larger rear wheels**:  
+
+<p align="center">
+  <img src="other/rear_wheels.jpg" alt="Rear Wheels" width="400" length="200"/>
+</p>  
+
+our inspiration for Small Front wheels + Large Rear came from **Bulldozers**: 
+This setup mimics heavy machinery like **bulldozers**, which use **smaller front wheels** and **larger rear wheels**:  
+- The **smaller front wheels** make steering easier and more precise.  
+- The **larger rear wheels** provide the **power and stability**, supporting the motor’s torque and carrying most of the load.
+- <p align="center">
+  <img src="other/" alt="Rear Wheels" width="400" length="200"/>
+</p>  
 
 
 
