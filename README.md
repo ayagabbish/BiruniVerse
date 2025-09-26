@@ -184,12 +184,8 @@ To eliminate wobbling, we modified the wheels to include **ball bearings** (skat
    - On the outside, nuts and washers fix the wheel in place to prevent wobbling.  
    - The threaded axle connects to the chassis, supported by mounts.  
 
-
-
-![Front Wheel (Outside View)](images/front_wheel_outside.jpg)  
 *Outside view showing tire, hub, bearing, axle, and nuts.*  
 
-![Front Wheel (Inside View)](images/front_wheel_inside.jpg)  
 *Inside view of the same assembly.*  
 
 ---
