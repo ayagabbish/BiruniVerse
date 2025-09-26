@@ -1,6 +1,6 @@
 <h1 align="center">BiruniVerse Team</h1>
 <p align="center">
-  <img src="other/logo2.PNG" alt="BiruniVerse Logo" width="300"/>
+  <img src="other/logo2.PNG" alt="BiruniVerse Logo" width="500"/>
 
 >  This repository documents the technical design, engineering processes, and development stages of our autonomous vehicle prototype. Built by three passionate engineering students, this robot is our gateway to the universe. United by creativity and curiosity, and supported by Birzeit University, we proudly present our journey in the WRO Future Engineers Challenge 2025.
 ## Content
@@ -105,20 +105,20 @@ From there, we started exploring strategies and technical designs. We looked dee
 For the foundation of our robot, we chose a standard plastic chassis
 
 <p align="center">
-  <img src="other/robotbase.PNG" alt="robotbase pic" width="300"/>
+  <img src="other/robotbase.PNG" alt="robotbase pic" width="400" length="200"/>
 </p>
 The reason behind choosing this base was driven by simplicity and practicality, it offered a flat, stable surface with numerous mounting holes, which helped with arranging and securing components.
 
 However, our structural requirements were not entirely satisfied by that base, so we had to modify it to fit our design by making new holes and gaps in the base to allow cleaner wire connection between the the upper controllers and the lower motors. Additionally, we made extra openings near the back to give the rear wheels enough clearance, and prevent them from hitting the base.
 
 <p align="center">
-  <img src="other/cutbase.JPG" alt="cutbase pic" width="300"/>
+  <img src="other/cutbase.JPG" alt="cutbase pic" width="400" length="200"/>
 </p>
 
 This picture shows how the chassis was cut to fit the wheels properly.
 for the cutting process, we used a **silverflo 928D tool soldering and cutting tool**, we relied on its heated tip and fine control to carefully shape the chassis.
 <p align="center">
-  <img src="other/cutting_tool.PNG" alt="cutbase pic" width="300"/>
+  <img src="other/cutting_tool.PNG" alt="cutbase pic" width="400" length="200"/>
 </p>
 
 
@@ -136,7 +136,7 @@ These wheels consisted of:
 - **Plastic Hub**: inner white rim that holds the tire and connects to the axle.  
 
 <p align="center">
-  <img src="other/front_wheel.jpg" alt="frontwheelpic" width="300"/>
+  <img src="other/front_wheel.jpg" alt="frontwheelpic" width="400" length="200"/>
 </p>
 
 ##### Problem – Wobbling During Rotation
@@ -148,7 +148,7 @@ The issue was caused by:
 
 This wobbling reduced **stability, steering precision, and vehicle speed**.
 <p align="center">
-  <img src="other/wobbling.jpeg" alt="wobblingwheelspic" width="300"/>
+  <img src="other/wobbling.jpeg" alt="wobblingwheelspic" width="400" length="200"/>
 </p>
 
 
@@ -157,7 +157,7 @@ This wobbling reduced **stability, steering precision, and vehicle speed**.
 To eliminate wobbling, we modified the wheels to include **ball bearings** (skateboard-style, model 608Z).
 
 <p align="center">
-  <img src="other/bearing.jpeg" alt="bearingspic" width="300"/>
+  <img src="other/bearing.jpeg" alt="bearingspic" width="400" length="200"/>
 </p>
 
 ###### Why Bearings?
@@ -182,11 +182,17 @@ To eliminate wobbling, we modified the wheels to include **ball bearings** (skat
 4. **Axle & Nuts Assembly**  
    - A metal threaded rod (axle) passes through the bearing.  
    - On the outside, nuts and washers fix the wheel in place to prevent wobbling.  
-   - The threaded axle connects to the chassis, supported by mounts.  
-
+   - The threaded axle connects to the chassis, supported by mounts.
+     
+<p align="center">
+  <img src="wheel2.png" alt="bearingspic" width="400" length="200"/>
+</p>
 *Outside view showing tire, hub, bearing, axle, and nuts.*  
-
+<p align="center">
+  <img src="wheel.JPG" alt="bearingspic" width="400" length="200"/>
+</p>
 *Inside view of the same assembly.*  
+
 
 ---
 
