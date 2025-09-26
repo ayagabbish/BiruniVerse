@@ -338,6 +338,25 @@ This combination allowed us to balance cost, availability, and performance while
 
 ***Selection reason*** : The ESP32 has many captivating and suitable features for our project, it has processing power of Dual-core 32-bit Xtensa CPU, up to 240 MHz, it has both Wi-Fi and Bluetooth (Classic + BLE) built-in, enough memory (520KB) to handle our code and execute it smoothly, has PWM On most GPIOs, its more cost effective, and it has more advanced features.
 
+##### ESP32 Expansion Board
+<p align="center">
+<picture>
+  <img src="Components/board.png" alt="ESP32 Expansion Board" width="25%" hight="20%">
+</picture>
+</p>
+
+- **Microcontroller**: ESP32 (dual-core, 240 MHz)  
+- **Connectivity**: Wi-Fi + Bluetooth  
+- **Operating Voltage**: 3.3V  
+- **Programming**: Arduino IDE or MicroPython  
+- **USB**: For power and programming (usually Micro-USB)  
+
+***Purpose*** : Acts as the main controller for connecting sensors, processing inputs, and controlling outputs such as LEDs and motors.  
+
+***Selection reason*** : Supports wireless communication, IoT applications, and runs code directly (Arduino/MicroPython). Flexible, powerful, and easy to integrate.  
+
+---
+
 ---
 #### 6. sensors
 ##### Ultrasonic Sensor
@@ -412,6 +431,8 @@ This combination allowed us to balance cost, availability, and performance while
 
 ---
 
+#### 7. Motors:
+
 #### 8. Motor Drivers:
 
 ## H-Bridge
@@ -449,43 +470,6 @@ This combination allowed us to balance cost, availability, and performance while
 
 ---
 
-### Engineering Material
-- Raspberri pi 4
-- ESP-WROOM-32
-- ESP32 expansion board
-- H-bridge
-- DC Mototr
-- Servo Motor
-- Infrared Sensor
-- Color Sensor
-- ultrasonics : we used 3 ultrasonics 2 on the sides and 1 in the front
-
-##  Software Architecture
-_TBD_
-
-##  Assembly Process
-_TBD_
-
-##  Testing and Iteration
-_TBD_
-
-##  Performance Metrics
-_TBD_
-
-##  File Structure
-_TBD_
-
-##  Robot Photos
-_TBD_
-
-##  Future Improvements
-_TBD_
-
-##  Lessons Learned
-_TBD_
-
-##  References
-_TBD_
 
 
 
