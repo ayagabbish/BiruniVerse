@@ -614,5 +614,3 @@ For the second task of the WRO Future Engineers self-driving car challenge, the 
   - ESP32 + ultrasonic sensors handle **navigation, obstacle safety, and motor control**.  
 - **Fail-safe operation**: If the camera fails to classify, the robot defaults to ultrasonic-based navigation.  
 - **Stable execution**: The front ultrasonic ensures the robot never collides while reacting to visual cues.
-
-## Software 
