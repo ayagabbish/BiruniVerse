@@ -432,6 +432,32 @@ This combination allowed us to balance cost, availability, and performance while
 ---
 
 #### 7. Motors:
+##### Servo Motor
+<p align="center">
+<picture>
+  <img src="Components/servo.webp" alt="Servo Motor" width="30%" hight="20%">
+</picture>
+</p>
+
+- **Model**:DCGM-N20-12V-EN-200RPM
+- **Voltage**: 4.8V to 6V  
+- **Operating Current**: ~100 mA to 250 mA (under load)  
+- **Stall Torque**: 1.8 kg·cm at 4.8V  
+- **Speed**: ~0.1 sec/60° at 4.8V  
+- **Rotation Range**: 0° to ~180° (limited by internal stops)  
+- **Control Signal**: PWM (50 Hz, 1–2 ms pulse width)  
+- **Motor Type**: Brushed DC motor with control circuitry and feedback  
+- **Weight**: ~9 g  
+- **Dimensions**: 22.8 × 12.2 × 29.5 mm  
+- **Gear Type**: Plastic gears  
+- **Shaft Type**: Spline (21 teeth)  
+- **Connector**: 3-pin (Signal, VCC, GND)  
+
+***Purpose*** : Used in the robot car’s steering mechanism. In Task 2, it worked with the camera and Teachable Machine to avoid obstacles dynamically by adjusting angles gradually. In Task 1, it turned 90° at track edges with ultrasonic input to keep the car aligned.  
+
+***Selection reason*** : Compact, affordable, easy to control, and accurate for 0°–180° rotation, making it ideal for steering.
+
+
 
 #### 8. Motor Drivers:
 
