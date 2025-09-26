@@ -1,6 +1,6 @@
 <h1 align="center">BiruniVerse Team</h1>
 <p align="center">
-  <img src="other/logo2.PNG" alt="BiruniVerse Logo" width="500"/>
+  <img src="other/logo2.PNG" alt="BiruniVerse Logo" width="300"/>
 
 >  This repository documents the technical design, engineering processes, and development stages of our autonomous vehicle prototype. Built by three passionate engineering students, this robot is our gateway to the universe. United by creativity and curiosity, and supported by Birzeit University, we proudly present our journey in the WRO Future Engineers Challenge 2025.
 ## Content
@@ -105,20 +105,20 @@ From there, we started exploring strategies and technical designs. We looked dee
 For the foundation of our robot, we chose a standard plastic chassis
 
 <p align="center">
-  <img src="other/robotbase.PNG" alt="robotbase pic" width="400" length="200"/>
+  <img src="other/robotbase.PNG" alt="robotbase pic" width="300"/>
 </p>
 The reason behind choosing this base was driven by simplicity and practicality, it offered a flat, stable surface with numerous mounting holes, which helped with arranging and securing components.
 
 However, our structural requirements were not entirely satisfied by that base, so we had to modify it to fit our design by making new holes and gaps in the base to allow cleaner wire connection between the the upper controllers and the lower motors. Additionally, we made extra openings near the back to give the rear wheels enough clearance, and prevent them from hitting the base.
 
 <p align="center">
-  <img src="other/cutbase.JPG" alt="cutbase pic" width="400" length="200"/>
+  <img src="other/cutbase.JPG" alt="cutbase pic" width="300"/>
 </p>
 
 This picture shows how the chassis was cut to fit the wheels properly.
 for the cutting process, we used a **silverflo 928D tool soldering and cutting tool**, we relied on its heated tip and fine control to carefully shape the chassis.
 <p align="center">
-  <img src="other/cutting_tool.PNG" alt="cutbase pic" width="400" length="200"/>
+  <img src="other/cutting_tool.PNG" alt="cutbase pic" width="300"/>
 </p>
 
 
@@ -136,7 +136,7 @@ These wheels consisted of:
 - **Plastic Hub**: inner white rim that holds the tire and connects to the axle.  
 
 <p align="center">
-  <img src="other/front_wheel.jpg" alt="frontwheelpic" width="400" length="200"/>
+  <img src="other/front_wheel.jpg" alt="frontwheelpic" width="300"/>
 </p>
 
 ##### Problem – Wobbling During Rotation
@@ -148,7 +148,7 @@ The issue was caused by:
 
 This wobbling reduced **stability, steering precision, and vehicle speed**.
 <p align="center">
-  <img src="other/wobbling.jpeg" alt="wobblingwheelspic" width="400" length="200"/>
+  <img src="other/wobbling.jpeg" alt="wobblingwheelspic" width="300"/>
 </p>
 
 
@@ -157,7 +157,7 @@ This wobbling reduced **stability, steering precision, and vehicle speed**.
 To eliminate wobbling, we modified the wheels to include **ball bearings** (skateboard-style, model 608Z).
 
 <p align="center">
-  <img src="other/bearing.jpeg" alt="bearingspic" width="400" length="200"/>
+  <img src="other/bearing.jpeg" alt="bearingspic" width="300"/>
 </p>
 
 ###### Why Bearings?
@@ -185,11 +185,11 @@ To eliminate wobbling, we modified the wheels to include **ball bearings** (skat
    - The threaded axle connects to the chassis, supported by mounts.
      
 <p align="center">
-  <img src="other/wheel2.PNG" alt="bearingspic" width="400" length="200"/>
+  <img src="other/wheel2.PNG" alt="bearingspic" width="300"/>
 </p>
 *Outside view showing tire, hub, bearing, axle, and nuts.*  
 <p align="center">
-  <img src="other/wheel.JPG" alt="bearingspic" width="400" length="200"/>
+  <img src="other/wheel.JPG" alt="bearingspic" width="300"/>
 </p>
 *Inside view of the same assembly.*  
 
@@ -197,14 +197,14 @@ We used this same technique for **both front wheels**, ensuring stability and sm
 
 ---
 
-##### rear Wheels
+##### Rear Wheels
 
 For the rear wheels, we initially planned to use wheels similar to the front ones. However, after upgrading to a **stronger DC motor**, we faced an issue: the motor’s torque and size caused the motor to hit the ground.  
 
 To solve this, we switched to **larger rear wheels**:  
 
 <p align="center">
-  <img src="other/rearwheels.WEBP" alt="Rear Wheels" width="400" length="200"/>
+  <img src="other/rearwheels.WEBP" alt="Rear Wheels" width="300"/>
 </p>  
 
 our inspiration for Small Front wheels + Large Rear came from **Tractors**: 
@@ -212,9 +212,30 @@ This setup mimics heavy machinery like **Tractors**, which use **smaller front w
 - The **smaller front wheels** make steering easier and more precise.  
 - The **larger rear wheels** provide the **power and stability**, supporting the motor’s torque and carrying most of the load.
 - <p align="center">
-  <img src="other/tractor.AVIF" alt="Rear Wheels" width="400" length="200"/>
+  <img src="other/tractor.AVIF" alt="Rear Wheels" width="300"/>
 </p>  
 
+---
+
+#### 2. Steering Mechanism:
+for our steering meachanism we followed the idea in this video: https://youtu.be/ZdtPTUsrAA4?si=SmZMQu09OpZvmOV_
+
+We decided to recreate the steering parts using SoliWorks, so we could 3D print them with strong plastic for durability.
+
+Our robot uses a servo-based steering system inspired by real car steering (Ackermann principle). The mechanism ensures both front wheels turn together when the servo moves.
+
+#####  steering system components
+
+| Name                | Explanation | Picture |
+|---------------------|-------------|---------|
+| **Servo Motor**     | **Purpose:** The actuator that initiates steering. <br> **How it works:** The servo rotates a precise angle (controlled by the ESP32). | ![Servo Motor](other/servo.png) |
+| **Servo Horn**      | **Purpose:** The white plastic arm attached to the servo shaft. <br> **How it works:** When the servo rotates, the horn converts that into a small push–pull motion at its tip. <br> **Why needed:** Provides a lever arm so the servo’s rotation can be transferred into linear motion for the linkage rod. | ![Servo Horn](other/servohorn.png) |
+| **Metal Link Rod**  | **Purpose:** Connects the servo horn to the first steering knuckle. <br> **How it works:** Moves back and forth as the horn rotates, converting the servo’s rotation into reciprocating linear motion. <br> **Why needed:** Acts as the bridge between the servo and the steering system. Without it, the servo could not move the knuckle. | ![Link Rod](other/linkrod.png) |
+| **Steering Knuckle**| **Purpose:** Holds the wheel axle and connects to both the linkage rod and the tie rod. <br> **How it works:** It pivots around a vertical screw fixed to the chassis. When the linkage rod pushes/pulls, the knuckle rotates, turning the wheel axle left or right. <br> **Why needed:** Essential for steering — it allows the wheel to turn while still being free to spin for forward/backward motion. | ![Knuckle](other/knuckle.png) |
+| **Tie Rod**         | **Purpose:** Connects the first steering knuckle to the second steering knuckle. <br> **How it works:** When the first knuckle pivots, the tie rod pushes or pulls the second knuckle so that both wheels turn together. <br> **Why needed:** Without it, only one wheel would steer, causing uneven turning and drag. The tie rod ensures synchronized steering. | ![Tie Rod](other/tierod.png) |
+| **Second Knuckle**  | **Purpose:** Mirrors the motion of the first knuckle through the tie rod. <br> **How it works:** Pivots when pulled/pushed by the tie rod, turning the second wheel. <br> **Why needed:** Ensures the second wheel turns in harmony with the first, giving stable and accurate steering. | ![Second Knuckle](other/secondknuckle.png) |
+| **Steering Mount Bracket (x2)** | **Purpose:** Connects the steering knuckle to the chassis with a vertical screw. <br> **How it works:** Acts as the pivot base for the knuckle. <br> **Why needed:** Keeps the knuckle rigidly fixed in place, allows free pivoting around the screw without wobbling. | ![Bracket](other/bracket.png) |
+| **Spacer Block (x2)** | **Purpose:** Provides the required vertical clearance between the mount bracket and the knuckle. <br> **How it works:** Sits between the mount bracket and the steering knuckle; the screw passes through it. <br> **Why needed:** Prevents the knuckle from rubbing against the mount bracket. Aligns the linkage rod and tie rod at the correct height for smooth steering geometry. | ![Spacer](other/spacer.png) |
 
 
 
