@@ -411,6 +411,29 @@ This combination allowed us to balance cost, availability, and performance while
 ***Selection reason*** : Provides reliable detection of specific colors, enabling lap counting and alternative navigation strategies.  
 
 ---
+
+#### 8. Motor Drivers:
+
+## H-Bridge
+<p align="center">
+<picture>
+  <img src="Components/h-bridge.jpg" alt="H-Bridge" width="30%" hight="20%">
+</picture>
+</p>
+
+- **Voltage**: 5V to 35V  
+- **Logic Voltage**: 5V  
+- **Continuous Current**: 2A per channel  
+- **Peak Current**: 3A per chann
+- **Channels**: 2 (dual H-Bridge)  
+- **Speed Control**: PWM (ENA/ENB pins)  
+- **Direction Control**: IN1, IN2, IN3, IN4  
+- **Protection**: Thermal shutdown, current limiting  
+- **Flyback Diodes**: Included  
+
+***Purpose*** : The ESP32 cannot directly reverse motor direction, but an H-Bridge enables this through simple digital HIGH/LOW signals. It also supports braking and freewheeling modes, offering finer control. It acts as a power driver, handling higher motor currents safely.  
+
+***Selection reason*** : Without an H-Bridge, a DC motor can only spin one way. The H-Bridge makes motor control safe, programmable, and reliable.  
  
 - **Model**: ESP32-WROOM-32 
 - **Board**: NodeMCU-ESP32 (ESP32 DEVKITV1)  
