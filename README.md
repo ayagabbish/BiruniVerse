@@ -98,8 +98,8 @@ From there, we started exploring strategies and technical designs. We looked dee
 - Stay inside size and hardware limits.
 
 ## Hardware Design
-###  Design Strategy
-#### 1. chassis Plate:
+
+### 1. chassis Plate:
 
 
 For the foundation of our robot, we chose a standard plastic chassis
@@ -125,11 +125,11 @@ for the cutting process, we used a **silverflo 928D tool soldering and cutting t
 ---
 
 
-#### 2. wheels:
+### 2. wheels:
 
-##### Front Wheels
+#### Front Wheels
 
-##### Starting Point – Store-Bought Wheels
+#### Starting Point – Store-Bought Wheels
 We began with standard RC-style wheels that came with our chassis.  
 These wheels consisted of:
 - **Outer Tire**: black rubber with tread for grip.  
@@ -139,7 +139,7 @@ These wheels consisted of:
   <img src="other/front_wheel.jpg" alt="frontwheelpic" width="300"/>
 </p>
 
-##### Problem – Wobbling During Rotation
+#### Problem – Wobbling During Rotation
 During testing, we noticed a **wobbling problem** in the wheels.  
 
 The issue was caused by:
@@ -153,19 +153,19 @@ This wobbling reduced **stability, steering precision, and vehicle speed**.
 
 
 
-##### Solution – Adding Bearings
+#### Solution – Adding Bearings
 To eliminate wobbling, we modified the wheels to include **ball bearings** (skateboard-style, model 608Z).
 
 <p align="center">
   <img src="other/bearing.jpeg" alt="bearingspic" width="300"/>
 </p>
 
-###### Why Bearings?
+##### Why Bearings?
 - Bearings allow the wheel to rotate smoothly around the axle.  
 - They reduce friction, which increases efficiency.  
 - They keep the wheel aligned and stable, preventing wobble.
 
-#### Front wheels assembly
+### Front wheels assembly
 
 1. **Outer Tire**  
    - Black part with tread made of rubber, providing grip on the track.  
@@ -197,7 +197,7 @@ We used this same technique for **both front wheels**, ensuring stability and sm
 
 ---
 
-##### Rear Wheels
+#### Rear Wheels
 
 For the rear wheels, we initially planned to use wheels similar to the front ones. However, after upgrading to a **stronger DC motor**, we faced an issue: the motor’s torque and size caused the motor to hit the ground.  
 
@@ -218,14 +218,14 @@ This setup mimics heavy machinery like **Tractors**, which use **smaller front w
 
 ---
 
-#### 3. Steering Mechanism:
+### 3. Steering Mechanism:
 for our steering meachanism we followed the idea in this video: https://youtu.be/ZdtPTUsrAA4?si=SmZMQu09OpZvmOV_
 
 We decided to recreate the steering parts using SoliWorks, so we could 3D print them with strong plastic for durability.
 
 Our robot uses a servo-based steering system inspired by real car steering (Ackermann principle). The mechanism ensures both front wheels turn together when the servo moves.
 
-#####  steering system components
+####  steering system components
 
 | Name                | Explanation | Picture |
 |---------------------|-------------|---------|
@@ -242,7 +242,7 @@ Our robot uses a servo-based steering system inspired by real car steering (Acke
 
 ---
 
-#### 4. Gearbox:
+### 4. Gearbox:
 
 For our drivetrain, we built a **simple right-angle gearbox**. 
 Before designing our own gearbox, we studied gears from a toy car.  
@@ -254,7 +254,7 @@ These are the toy car gears we used as inspiration for our gearbox design:
 |---|---|---|
 | <img src="other/oldgear1.jpg" width="200"/> | <img src="other/oldgear2.PNG" width="200"/>| <img src="other/oldmotor2.jpg" width="200"/> |
 
-##### Small Gear Component
+#### Small Gear Component
 - Length: **6 mm**  
 - Gear teeth thickness: **3.2 mm** (but we required a larger outer diameter)  
 - Motor mount diameter: **~3 mm** → the gear was hollowed out to fit this inner diameter.  
@@ -269,7 +269,7 @@ These are the toy car gears we used as inspiration for our gearbox design:
 
 
 
-##### Large Gear Component
+#### Large Gear Component
 - Teeth count: **24 teeth**  
 - Pitch diameter: **7.2 mm** (original design)  
 - Outer diameter: **≤ 10 mm**  
@@ -289,7 +289,7 @@ These specifications guided the CAD modeling of the gears and ensured they were 
 
 ---
 
-#### 5.controllers
+### 5.controllers
 
 The microcontroller is the **brain of the robot**, so our main priority was choosing the best one to do the job while also being cost-effective.
 
@@ -306,7 +306,7 @@ The microcontroller is the **brain of the robot**, so our main priority was choo
 
 This combination allowed us to balance cost, availability, and performance while ensuring smooth operation of both control and perception tasks.
 
-##### Raspberry Pi 4
+#### Raspberry Pi 4
 <p align="center">
   <img src="Components/RAS.gif" alt="Raspberry Pi 4" width="50%">
 </p>
@@ -328,7 +328,7 @@ This combination allowed us to balance cost, availability, and performance while
 ***Selection reason*** : As for the reason for choosing the Raspberry Pi 4, it is due to its easier-to-provide power source and lower power consumption. It is also more compatible when coding and using libraries. and lastly, its accessories are more affordable, and it generates less heat compared to the Raspberry Pi 5.
 
 
-##### ESP32
+#### ESP32
 <p align="center">
   <img src="Components/ESP32model3d.gif" alt="Raspberry Pi 4" width="50%">
 </p>
@@ -338,7 +338,7 @@ This combination allowed us to balance cost, availability, and performance while
 
 ***Selection reason*** : The ESP32 has many captivating and suitable features for our project, it has processing power of Dual-core 32-bit Xtensa CPU, up to 240 MHz, it has both Wi-Fi and Bluetooth (Classic + BLE) built-in, enough memory (520KB) to handle our code and execute it smoothly, has PWM On most GPIOs, its more cost effective, and it has more advanced features.
 
-##### ESP32 Expansion Board
+#### ESP32 Expansion Board
 <p align="center">
 <picture>
   <img src="Components/board.png" alt="ESP32 Expansion Board" width="25%" hight="20%">
@@ -358,8 +358,8 @@ This combination allowed us to balance cost, availability, and performance while
 ---
 
 ---
-#### 6. sensors
-##### Ultrasonic Sensor
+### 6. sensors
+#### Ultrasonic Sensor
 <p align="center">
 <picture>
   <img alt="Ultrasonic Sensor" src="Components/ultrasonic.webp" width="50%" hight="40%" >
@@ -379,7 +379,7 @@ This combination allowed us to balance cost, availability, and performance while
 
 ***Purpose*** : We have adopted a strategy that requires three ultrasonic sensors to be used effectively. Two sensors are placed on the sides, while the third is positioned at the front of the car. The side sensors are responsible for measuring the distance between the car and the walls on each side of the path. They continuously compare the two readings to determine the car’s position. When one of the side sensors detects a distance greater than the other by more than 2 meters, the system will determine that side as the turning direction of the path. As for the third sensor at the front, its main purpose is to measure the distance between the car and any obstacles, which will later be used to decide when the car should start turning at an angle to avoid collisions. It will also measure the distance between the walls of the track and the car, which will be useful—combined with our servomotor and camera in Task 2.
 
-##### Infrared Sensor
+#### Infrared Sensor
 <p align="center">
 <picture>
   <img src="Components/infrered.webp" alt="Infrared Sensor" width="30%" hight="20%">
@@ -402,7 +402,7 @@ This combination allowed us to balance cost, availability, and performance while
 
 ***Selection reason*** : It senses short distances more precisely than the ultrasonic sensor.  
 
-##### Color Sensor
+#### Color Sensor
 <p align="center">
 <picture>
   <img src="Components/color sensor.jpeg" alt="Color Sensor" width="30%" hight="20%">
@@ -431,8 +431,8 @@ This combination allowed us to balance cost, availability, and performance while
 
 ---
 
-#### 7. Motors:
-##### Servo Motor
+### 7. Motors:
+#### Servo Motor
 <p align="center">
 <picture>
   <img src="Components/servo.webp" alt="Servo Motor" width="30%" hight="20%">
@@ -459,9 +459,9 @@ This combination allowed us to balance cost, availability, and performance while
 
 
 
-#### 8. Motor Drivers:
+### 8. Motor Drivers:
 
-## H-Bridge
+#### H-Bridge
 <p align="center">
 <picture>
   <img src="Components/h-bridge.jpg" alt="H-Bridge" width="30%" hight="20%">
@@ -496,6 +496,123 @@ This combination allowed us to balance cost, availability, and performance while
 
 ---
 
+### 9. Power:
+
+Our robot uses two different power sources to separate the load between the control electronics and the computing unit:
+
+1. **9V Rechargeable Li-ion Battery (6600mAh)**
+   - **Purpose:** Powers the **H-Bridge motor driver** and the **ESP32 microcontroller**.  
+   - **Reasoning:** The ESP32 and H-Bridge require stable DC input for motor control and logic-level operations.  
+   - **Advantage:** Keeps the motor driving system and the low-power controller on a dedicated supply, avoiding interference from the Raspberry Pi’s higher power draw.  
+ <p align="center">
+<picture>
+  <img src="other/jpg" alt="H-Bridge" width="30%" hight="20%">
+</picture>
+</p> 
+
+2. **Billboard 10,000mAh Power Bank**
+   - **Purpose:** Powers the **Raspberry Pi**.  
+   - **Reasoning:** The Raspberry Pi demands higher current (via USB 5V) to handle computer vision and advanced processing tasks.  
+   - **Advantage:** Provides long runtime with built-in overcharge protection and dual USB outputs, ensuring the Pi has a reliable and safe power source.  
+<p align="center">
+<picture>
+  <img src="other/.jpg" alt="H-Bridge" width="30%" hight="20%">
+</picture>
+</p>
+---
+
+By splitting the power supply:
+- The **motors and ESP32** receive dedicated current without fluctuations.  
+- The **Raspberry Pi** operates independently, focused on vision and processing.  
+This design ensures **stability, efficiency, and longer runtime** for the robot.
+
+---
+
+### 10. Camera:
+
+For vision processing, we equipped the robot with the **Microsoft LifeCam Cinema** USB camera.
+
+- **Resolution:** 720p HD  
+- **Interface:** USB 2.0  
+- **Purpose:** Provides real-time video input for the **Raspberry Pi**, which runs computer vision algorithms for obstacle detection and navigation.  
+- **Reasoning:**  
+  - Affordable and easily available.  
+  - Compact size, suitable for mounting on the robot chassis.  
+  - Reliable driver support on Linux/Raspberry Pi OS.
+
+<p align="center">
+<picture>
+  <img src="other/.jpg" alt="H-Bridge" width="30%" hight="20%">
+</picture>
+</p>
+
+----
+
+## Strategies:
+
+### First Task: Navigation Without Traffic Signs
+
+For the first task of the WRO Future Engineers self-driving car challenge, our robot must navigate a track without traffic signs and complete **three laps**.  
+
+1. **Wall-Following with Ultrasonic Sensors**
+   - Two ultrasonic sensors are mounted on the left and right sides of the robot.  
+   - On straight sections, the robot uses the sensor readings to maintain a centered position between the track walls.  
+   - If one side is closer to the wall, the steering is adjusted to balance the readings and re-center the robot.
+
+2. **Corner Detection**
+   - When the robot approaches a corner, one ultrasonic sensor suddenly detects a **much larger distance** (open space).  
+   - This change signals that a turn is required.  
+   - On detecting a corner:
+     - The robot briefly slows down or stops.  
+     - The **servo motor** precisely steers the front wheels to execute the turn.  
+
+3. **Lap Counting**
+   - Each successful turn is counted as progress along the lap.  
+   - After detecting **12 turns**, the robot concludes that **3 laps** have been completed.  
+   - The robot then comes to a full stop.
+
+**Key Points**
+- **Ultrasonic sensors** ensure continuous wall detection and provide reliable corner identification.  
+- **Servo steering** allows accurate maneuvering around corners.  
+- **Turn-based lap counting** avoids the need for external markers and ensures consistent lap tracking.
+
+---
 
 
+### Second Task : Obstacle Avoidance
 
+For the second task of the WRO Future Engineers self-driving car challenge, the robot must navigate a track while avoiding obstacles placed along the way.  
+
+
+1. **Camera and Raspberry Pi (High-Level Control)**
+   - A USB camera connected to the Raspberry Pi continuously captures frames.  
+   - Each frame is processed by a **Teachable Machine Lite model** (`model.tflite` with `labels.txt`).  
+   - Classification results determine the action:
+     - **Red Block** → Raspberry Pi sends `L` (Left) via serial.  
+     - **Green Block** → Raspberry Pi sends `R` (Right) via serial.  
+     - **No Block / Other** → Raspberry Pi sends `F` (Forward).  
+   - The Pi communicates commands to the **ESP32** through serial (TX/RX pins).  
+
+2. **ESP32 and Actuators (Low-Level Control)**
+   - The ESP32 interprets the commands from the Raspberry Pi.  
+   - **L** → Servo motor steers the front wheels left.  
+   - **R** → Servo motor steers the front wheels right.  
+   - **F** → Motors continue forward using the H-Bridge driver.  
+
+3. **Ultrasonic Sensors**
+   - **Side ultrasonics**: Keep the robot centered on straights and detect corners (same logic as Task 1).  
+   - **Front ultrasonic**: Measures distance directly ahead. If an obstacle is too close (e.g., < 15 cm), the robot stops, moves backwards, then avoids the obstacle in the correct way.  
+
+4. **Lap Counting**
+   - Just like in Task 1, each successful turn increments a counter.  
+   - After **12 turns**, the robot concludes that 3 laps are complete and stops.  
+
+
+**Key Points**
+- **Dual-layer system**:  
+  - Raspberry Pi handles **visual recognition and decision-making**.  
+  - ESP32 + ultrasonic sensors handle **navigation, obstacle safety, and motor control**.  
+- **Fail-safe operation**: If the camera fails to classify, the robot defaults to ultrasonic-based navigation.  
+- **Stable execution**: The front ultrasonic ensures the robot never collides while reacting to visual cues.
+
+## Software 
