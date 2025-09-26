@@ -245,11 +245,11 @@ For our drivetrain, we built a **simple right-angle gearbox**.
 Before designing our own gearbox, we studied gears from a toy car.  
 The images below show the original toy car gears and their measurements, which served as inspiration for our custom build, which we then adjusted its measurements to match our motor and build needs.
 
-| Image | Description & Measurements |
-|-------|-----------------------------|
-| ![Gear Shaft](other/gearshaft.jpg) | **Gear on shaft**: 5 mm length, 3.5 mm thickness |
-| ![Motor Gear](other/motorgear.jpg) | **Motor pinion gear**: radius ≈ 3.2 mm |
-| ![Gear with Motor](other/gearwithmotor.jpg) | **Gear on motor shaft**: 6 mm thickness |
+These are the toy car gears we used as inspiration for our gearbox design:
+
+| | | |
+|---|---|---|
+| ![Gear Shaft](other/gearshaft.jpg) | ![Motor Gear](other/motorgear.jpg) | ![Gear with Motor](other/gearwithmotor.jpg) |
 
 ##### Small Gear Component
 - Length: **6 mm**  
@@ -260,16 +260,13 @@ The images below show the original toy car gears and their measurements, which s
 - Ratio: **1:3**  
 - Special feature: the motor shaft is **D-shaped**, so the gear’s inner hole was designed with a matching **D-shaped cut** (not circular) to fit securely.
 
----
 
-### Large Gear Component
+##### Large Gear Component
 - Teeth count: **24 teeth**  
 - Pitch diameter: **7.2 mm** (original design)  
 - Outer diameter: **≤ 10 mm**  
 - Inner hole: **3 mm circular cutout** (for mounting)  
 - Thickness: *(as per final design — adjusted for stability)*
-
----
 
 These specifications guided the CAD modeling of the gears and ensured they were compatible with both our motor shaft and the required torque transfer for the robot.
 
