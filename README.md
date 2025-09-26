@@ -163,7 +163,38 @@ To eliminate wobbling, we modified the wheels to include **ball bearings** (skat
 ###### Why Bearings?
 - Bearings allow the wheel to rotate smoothly around the axle.  
 - They reduce friction, which increases efficiency.  
-- They keep the wheel aligned and stable, preventing wobble.  
+- They keep the wheel aligned and stable, preventing wobble.
+
+#### Front wheels assembly
+
+1. **Outer Tire**  
+   - Black part with tread made of rubber, providing grip on the track.  
+   - Standard RC-style tire that slips over the wheel hub.  
+
+2. **Wheel Hub (White Plastic Rim)**  
+   - The inner white circular part that holds the tire.  
+   - It was cut in some spots to fit the bearing.  
+
+3. **Ball Bearing (608Z)**  
+   - Standard skateboard/roller bearing.  
+   - Allows the wheel to rotate smoothly around the axle with reduced friction.  
+
+4. **Axle & Nuts Assembly**  
+   - A metal threaded rod (axle) passes through the bearing.  
+   - On the outside, nuts and washers fix the wheel in place to prevent wobbling.  
+   - The threaded axle connects to the chassis, supported by mounts.  
+
+
+
+![Front Wheel (Outside View)](images/front_wheel_outside.jpg)  
+*Outside view showing tire, hub, bearing, axle, and nuts.*  
+
+![Front Wheel (Inside View)](images/front_wheel_inside.jpg)  
+*Inside view of the same assembly.*  
+
+---
+
+We used this same technique for **both front wheels**, ensuring stability and smooth steering.
 
 
 
