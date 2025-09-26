@@ -290,7 +290,6 @@ These specifications guided the CAD modeling of the gears and ensured they were 
 ---
 
 #### 5.controllers
-## Controllers
 
 The microcontroller is the **brain of the robot**, so our main priority was choosing the best one to do the job while also being cost-effective.
 
@@ -307,9 +306,51 @@ The microcontroller is the **brain of the robot**, so our main priority was choo
 
 This combination allowed us to balance cost, availability, and performance while ensuring smooth operation of both control and perception tasks.
 
+##### Raspberry Pi 4
+<p align="center">
+  <img src="Components/RAS.gif" alt="Raspberry Pi 4" width="50%">
+</p>
+
+- **Processor**: 1.5GHz 64-bit quad-core  
+- **RAM**: 8GB LPDDR4  
+- **SD card**: 32GB 
+- **Ports**: 2 USB 3.0 ports, 2 USB 2.0 ports
+- **Operation Voltage** : 5.1V at 3A
+- **Dimensions** : 85mm x 56mm x 17mm
+- **Connectivity**:  
+  - Dual-band Wi-Fi  
+  - Bluetooth 5.0  
+  - Gigabit Ethernet  
+  - USB 3.0
+
+***Purpose*** : The purpose of using the Raspberry Pi 4 was to connect a camera that provides visual input to the system. This input is then processed using machine learning, including image classification and recognition. Moreover, these methods guide the robot car to determine the turning direction based on live information and observations. In addition, the system can make decisions on the spot in a changing environment.
+
+***Selection reason*** : As for the reason for choosing the Raspberry Pi 4, it is due to its easier-to-provide power source and lower power consumption. It is also more compatible when coding and using libraries. and lastly, its accessories are more affordable, and it generates less heat compared to the Raspberry Pi 5.
 
 
+##### ESP32
+<p align="center">
+  <img src="Components/ESP32model3d.gif" alt="Raspberry Pi 4" width="50%">
+</p>
 
+ 
+- **Model**: ESP32-WROOM-32 
+- **Board**: NodeMCU-ESP32 (ESP32 DEVKITV1)  
+- **Chip**: ESP32 (Dual-core Xtensa LX6, up to 240MHz)  
+- **Wi-Fi**: 802.11 b/g/n (2.4GHz)  
+- **Bluetooth**: v4.2 BR/EDR + BLE  
+- **RAM**: 520KB SRAM  
+- **Flash**: 4MB (or 16MB, depending on variant)  
+- **GPIO Pins**: 38 (including ADC, DAC, UART, SPI, I2C)  
+- **USB**: Micro-USB (for power/programming)  
+- **Operating Voltage**: 3.3V
+- **Dimensions** : 18mm x 25.5mm x 3.1mm
+
+***Purpose*** : its to connect the rest of the robots components, sensors and motors, to ensure their best performance, we programmed the microcontroller using C++, It connects to the Raspberry Pi, which handles image recognition. Based on camera input (red or green obstacle), the Raspberry Pi sends commands to the ESP32, which then executes movement based on the code the esp32 runs, through the connected hardware.
+
+***Selection reason*** : The ESP32 has many captivating and suitable features for our project, it has processing power of Dual-core 32-bit Xtensa CPU, up to 240 MHz, it has both Wi-Fi and Bluetooth (Classic + BLE) built-in, enough memory (520KB) to handle our code and execute it smoothly, has PWM On most GPIOs, its more cost effective, and it has more advanced features.
+
+---
 
 ### Engineering Material
 - Raspberri pi 4
