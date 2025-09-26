@@ -217,7 +217,7 @@ This setup mimics heavy machinery like **Tractors**, which use **smaller front w
 
 ---
 
-#### 2. Steering Mechanism:
+#### 3. Steering Mechanism:
 for our steering meachanism we followed the idea in this video: https://youtu.be/ZdtPTUsrAA4?si=SmZMQu09OpZvmOV_
 
 We decided to recreate the steering parts using SoliWorks, so we could 3D print them with strong plastic for durability.
@@ -237,6 +237,41 @@ Our robot uses a servo-based steering system inspired by real car steering (Acke
 | **Steering Mount Bracket (x2)** | **Purpose:** Connects the steering knuckle to the chassis with a vertical screw. <br> **How it works:** Acts as the pivot base for the knuckle. <br> **Why needed:** Keeps the knuckle rigidly fixed in place, allows free pivoting around the screw without wobbling. | ![Bracket](other/steeringmountbracket.jpg) |
 | **Spacer Block (x2)** | **Purpose:** Provides the required vertical clearance between the mount bracket and the knuckle. <br> **How it works:** Sits between the mount bracket and the steering knuckle; the screw passes through it. <br> **Why needed:** Prevents the knuckle from rubbing against the mount bracket. Aligns the linkage rod and tie rod at the correct height for smooth steering geometry. | ![Spacer](other/spacer.jpg) |
 
+---
+
+#### 4. Gearbox:
+
+For our drivetrain, we built a **simple right-angle gearbox**. 
+Before designing our own gearbox, we studied gears from a toy car.  
+The images below show the original toy car gears and their measurements, which served as inspiration for our custom build, which we then adjusted its measurements to match our motor and build needs.
+
+| Image | Description & Measurements |
+|-------|-----------------------------|
+| ![Gear Shaft](other/gearshaft.jpg) | **Gear on shaft**: 5 mm length, 3.5 mm thickness |
+| ![Motor Gear](other/motorgear.jpg) | **Motor pinion gear**: radius ≈ 3.2 mm |
+| ![Gear with Motor](other/gearwithmotor.jpg) | **Gear on motor shaft**: 6 mm thickness |
+
+##### Small Gear Component
+- Length: **6 mm**  
+- Gear teeth thickness: **3.2 mm** (but we required a larger outer diameter)  
+- Motor mount diameter: **~3 mm** → the gear was hollowed out to fit this inner diameter.  
+- Teeth count: **8 teeth**  
+- Larger gear: **24 teeth**  
+- Ratio: **1:3**  
+- Special feature: the motor shaft is **D-shaped**, so the gear’s inner hole was designed with a matching **D-shaped cut** (not circular) to fit securely.
+
+---
+
+### Large Gear Component
+- Teeth count: **24 teeth**  
+- Pitch diameter: **7.2 mm** (original design)  
+- Outer diameter: **≤ 10 mm**  
+- Inner hole: **3 mm circular cutout** (for mounting)  
+- Thickness: *(as per final design — adjusted for stability)*
+
+---
+
+These specifications guided the CAD modeling of the gears and ensured they were compatible with both our motor shaft and the required torque transfer for the robot.
 
 
 
