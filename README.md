@@ -207,8 +207,8 @@ To solve this, we switched to **larger rear wheels**:
   <img src="other/rear_wheels.jpg" alt="Rear Wheels" width="400" length="200"/>
 </p>  
 
-our inspiration for Small Front wheels + Large Rear came from **Bulldozers**: 
-This setup mimics heavy machinery like **bulldozers**, which use **smaller front wheels** and **larger rear wheels**:  
+our inspiration for Small Front wheels + Large Rear came from **Tractors**: 
+This setup mimics heavy machinery like **Tractors**, which use **smaller front wheels** and **larger rear wheels**:  
 - The **smaller front wheels** make steering easier and more precise.  
 - The **larger rear wheels** provide the **power and stability**, supporting the motor’s torque and carrying most of the load.
 - <p align="center">
