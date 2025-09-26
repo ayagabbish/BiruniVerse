@@ -185,11 +185,11 @@ To eliminate wobbling, we modified the wheels to include **ball bearings** (skat
    - The threaded axle connects to the chassis, supported by mounts.
      
 <p align="center">
-  <img src="other/wheel2.PNG" alt="bearingspic" width="300"/>
+  <img src="other/wheel2.PNG" alt="outsideviewoftires" width="200"/>
 </p>
 *Outside view showing tire, hub, bearing, axle, and nuts.*  
 <p align="center">
-  <img src="other/wheel.JPG" alt="bearingspic" width="300"/>
+  <img src="other/wheel.JPG" alt="insideviewoftires" width="200"/>
 </p>
 *Inside view of the same assembly.*  
 
@@ -211,8 +211,9 @@ our inspiration for Small Front wheels + Large Rear came from **Tractors**:
 This setup mimics heavy machinery like **Tractors**, which use **smaller front wheels** and **larger rear wheels**:  
 - The **smaller front wheels** make steering easier and more precise.  
 - The **larger rear wheels** provide the **power and stability**, supporting the motor’s torque and carrying most of the load.
-- <p align="center">
-  <img src="other/tractor.AVIF" alt="Rear Wheels" width="300"/>
+  
+  <p align="center">
+  <img src="other/tractor.AVIF" alt="Rear Wheels" width="400"/>
 </p>  
 
 ---
@@ -228,14 +229,14 @@ Our robot uses a servo-based steering system inspired by real car steering (Acke
 
 | Name                | Explanation | Picture |
 |---------------------|-------------|---------|
-| **Servo Motor**     | **Purpose:** The actuator that initiates steering. <br> **How it works:** The servo rotates a precise angle (controlled by the ESP32). | ![Servo Motor](other/servomotor.JPG) |
-| **Servo Horn**      | **Purpose:** The white plastic arm attached to the servo shaft. <br> **How it works:** When the servo rotates, the horn converts that into a small push–pull motion at its tip. <br> **Why needed:** Provides a lever arm so the servo’s rotation can be transferred into linear motion for the linkage rod. | ![Servo Horn](other/servohorn.JPG) |
-| **Metal Link Rod**  | **Purpose:** Connects the servo horn to the first steering knuckle. <br> **How it works:** Moves back and forth as the horn rotates, converting the servo’s rotation into reciprocating linear motion. <br> **Why needed:** Acts as the bridge between the servo and the steering system. Without it, the servo could not move the knuckle. | ![Link Rod](other/metallinkrod.PNG) |
-| **Steering Knuckle**| **Purpose:** Holds the wheel axle and connects to both the linkage rod and the tie rod. <br> **How it works:** It pivots around a vertical screw fixed to the chassis. When the linkage rod pushes/pulls, the knuckle rotates, turning the wheel axle left or right. <br> **Why needed:** Essential for steering — it allows the wheel to turn while still being free to spin for forward/backward motion. | ![Knuckle](other/steeringknuckle.JPG) |
-| **Tie Rod**         | **Purpose:** Connects the first steering knuckle to the second steering knuckle. <br> **How it works:** When the first knuckle pivots, the tie rod pushes or pulls the second knuckle so that both wheels turn together. <br> **Why needed:** Without it, only one wheel would steer, causing uneven turning and drag. The tie rod ensures synchronized steering. | ![Tie Rod](other/tierod.JPG) |
-| **Second Knuckle**  | **Purpose:** Mirrors the motion of the first knuckle through the tie rod. <br> **How it works:** Pivots when pulled/pushed by the tie rod, turning the second wheel. <br> **Why needed:** Ensures the second wheel turns in harmony with the first, giving stable and accurate steering. | ![Second Knuckle](other/secondsteeringknuckle.JPG) |
-| **Steering Mount Bracket (x2)** | **Purpose:** Connects the steering knuckle to the chassis with a vertical screw. <br> **How it works:** Acts as the pivot base for the knuckle. <br> **Why needed:** Keeps the knuckle rigidly fixed in place, allows free pivoting around the screw without wobbling. | ![Bracket](other/steeringmountbracket.jpg) |
-| **Spacer Block (x2)** | **Purpose:** Provides the required vertical clearance between the mount bracket and the knuckle. <br> **How it works:** Sits between the mount bracket and the steering knuckle; the screw passes through it. <br> **Why needed:** Prevents the knuckle from rubbing against the mount bracket. Aligns the linkage rod and tie rod at the correct height for smooth steering geometry. | ![Spacer](other/spacer.jpg) |
+| **Servo Motor**     | **Purpose:** The actuator that initiates steering. <br> **How it works:** The servo rotates a precise angle (controlled by the ESP32). | <img src="other/servomotor.JPG" width="200"/>  |
+| **Servo Horn**      | **Purpose:** The white plastic arm attached to the servo shaft. <br> **How it works:** When the servo rotates, the horn converts that into a small push–pull motion at its tip. <br> **Why needed:** Provides a lever arm so the servo’s rotation can be transferred into linear motion for the linkage rod. |<img src="other/servohorn.JPG" width="200"/> |
+| **Metal Link Rod**  | **Purpose:** Connects the servo horn to the first steering knuckle. <br> **How it works:** Moves back and forth as the horn rotates, converting the servo’s rotation into reciprocating linear motion. <br> **Why needed:** Acts as the bridge between the servo and the steering system. Without it, the servo could not move the knuckle. | <img src="other/metallinkrod.PNG" width="200"/>  |
+| **Steering Knuckle**| **Purpose:** Holds the wheel axle and connects to both the linkage rod and the tie rod. <br> **How it works:** It pivots around a vertical screw fixed to the chassis. When the linkage rod pushes/pulls, the knuckle rotates, turning the wheel axle left or right. <br> **Why needed:** Essential for steering — it allows the wheel to turn while still being free to spin for forward/backward motion. | <img src="other/steeringknuckle.JPG" width="200"/> |
+| **Tie Rod**         | **Purpose:** Connects the first steering knuckle to the second steering knuckle. <br> **How it works:** When the first knuckle pivots, the tie rod pushes or pulls the second knuckle so that both wheels turn together. <br> **Why needed:** Without it, only one wheel would steer, causing uneven turning and drag. The tie rod ensures synchronized steering. |<img src="other/tierod.JPG" width="200"/> |
+| **Second Knuckle**  | **Purpose:** Mirrors the motion of the first knuckle through the tie rod. <br> **How it works:** Pivots when pulled/pushed by the tie rod, turning the second wheel. <br> **Why needed:** Ensures the second wheel turns in harmony with the first, giving stable and accurate steering. | <img src="other/secondsteeringknuckle.JPG" width="200"/>|
+| **Steering Mount Bracket (x2)** | **Purpose:** Connects the steering knuckle to the chassis with a vertical screw. <br> **How it works:** Acts as the pivot base for the knuckle. <br> **Why needed:** Keeps the knuckle rigidly fixed in place, allows free pivoting around the screw without wobbling. |  <img src="other/steeringmountbracket.jpg" width="200"/> |
+| **Spacer Block (x2)** | **Purpose:** Provides the required vertical clearance between the mount bracket and the knuckle. <br> **How it works:** Sits between the mount bracket and the steering knuckle; the screw passes through it. <br> **Why needed:** Prevents the knuckle from rubbing against the mount bracket. Aligns the linkage rod and tie rod at the correct height for smooth steering geometry. | <img src="other/spacer.jpg" width="200"/> |
 
 ---
 
@@ -249,7 +250,7 @@ These are the toy car gears we used as inspiration for our gearbox design:
 
 | | | |
 |---|---|---|
-| ![Gear Shaft](other/gearshaft.jpg) | ![Motor Gear](other/motorgear.jpg) | ![Gear with Motor](other/gearwithmotor.jpg) |
+| <img src="other/oldgear1.jpg" width="200"/> | <img src="other/oldgear2.PNG" width="200"/>| <img src="other/oldmotor2.jpg" width="200"/> |
 
 ##### Small Gear Component
 - Length: **6 mm**  
@@ -260,6 +261,11 @@ These are the toy car gears we used as inspiration for our gearbox design:
 - Ratio: **1:3**  
 - Special feature: the motor shaft is **D-shaped**, so the gear’s inner hole was designed with a matching **D-shaped cut** (not circular) to fit securely.
 
+<p align="center">
+ <img src="other/newgearmodel1.png" width="200"/ > 
+</p>
+
+
 
 ##### Large Gear Component
 - Teeth count: **24 teeth**  
@@ -268,7 +274,13 @@ These are the toy car gears we used as inspiration for our gearbox design:
 - Inner hole: **3 mm circular cutout** (for mounting)  
 - Thickness: *(as per final design — adjusted for stability)*
 
+<p align="center">
+ <img src="other/newgearmodel2.*" width="200"/ > 
+</p>
+
 These specifications guided the CAD modeling of the gears and ensured they were compatible with both our motor shaft and the required torque transfer for the robot.
+
+
 
 
 
