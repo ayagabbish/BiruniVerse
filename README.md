@@ -204,7 +204,7 @@ For the rear wheels, we initially planned to use wheels similar to the front one
 To solve this, we switched to **larger rear wheels**:  
 
 <p align="center">
-  <img src="other/rear_wheels.jpg" alt="Rear Wheels" width="400" length="200"/>
+  <img src="other/rearwheels.WEBP" alt="Rear Wheels" width="400" length="200"/>
 </p>  
 
 our inspiration for Small Front wheels + Large Rear came from **Tractors**: 
@@ -212,7 +212,7 @@ This setup mimics heavy machinery like **Tractors**, which use **smaller front w
 - The **smaller front wheels** make steering easier and more precise.  
 - The **larger rear wheels** provide the **power and stability**, supporting the motor’s torque and carrying most of the load.
 - <p align="center">
-  <img src="other/" alt="Rear Wheels" width="400" length="200"/>
+  <img src="other/tractor.AVIF" alt="Rear Wheels" width="400" length="200"/>
 </p>  
 
 
