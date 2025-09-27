@@ -529,7 +529,7 @@ Our robot uses two different power sources to separate the load between the cont
    - **Advantage:** Keeps the motor driving system and the low-power controller on a dedicated supply, avoiding interference from the Raspberry Pi’s higher power draw.  
  <p align="center">
 <picture>
-  <img src="other/jpg" alt="H-Bridge" width="30%" hight="20%">
+  <img src="other/battery2.PNG" alt="H-Bridge" width="30%" hight="20%">
 </picture>
 </p> 
 
