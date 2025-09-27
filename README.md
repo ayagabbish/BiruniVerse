@@ -15,7 +15,7 @@
 # Table of Contents
 
 ## Introduction
-- [ Competition Overview](#-competition-overview)
+- [ Competition Overview](#competition overview)
 - [ Who Are We?](#-who-are-we)
 - [ Robot Aims and Objectives](#-robot-aims-and-objectives)
 
