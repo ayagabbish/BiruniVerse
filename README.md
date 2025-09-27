@@ -514,7 +514,7 @@ Our robot uses two different power sources to separate the load between the cont
    - **Advantage:** Provides long runtime with built-in overcharge protection and dual USB outputs, ensuring the Pi has a reliable and safe power source.  
 <p align="center">
 <picture>
-  <img src="other/.jpg" alt="H-Bridge" width="30%" hight="20%">
+  <img src="other/powebank.PNG" alt="H-Bridge" width="30%" hight="20%">
 </picture>
 </p>
 ---
@@ -540,7 +540,7 @@ For vision processing, we equipped the robot with the **Microsoft LifeCam Cinema
 
 <p align="center">
 <picture>
-  <img src="other/.jpg" alt="H-Bridge" width="30%" hight="20%">
+  <img src="other/camera.jpg" alt="H-Bridge" width="30%" hight="20%">
 </picture>
 </p>
 
