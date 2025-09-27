@@ -454,6 +454,31 @@ This combination allowed us to balance cost, availability, and performance while
 ***Purpose*** : Used in the robot car’s steering mechanism. In Task 2, it worked with the camera and Teachable Machine to avoid obstacles dynamically by adjusting angles gradually. In Task 1, it turned 90° at track edges with ultrasonic input to keep the car aligned.  
 
 ***Selection reason*** : Compact, affordable, easy to control, and accurate for 0°–180° rotation, making it ideal for steering.
+#### DC Motor (JGA25-370)
+<p align="center">
+<picture>
+  <img src="other/DCmotor.webp" alt="Servo Motor" width="30%" hight="20%">
+</picture>
+</p>
+
+- **Model:** JGA25-370 DC Gear Motor  
+- **Rated Voltage:** 6–12 V DC  
+- **No-load Speed:** ~30–600 RPM (varies by gear ratio & supply voltage)  
+- **No-load Current:** 70–150 mA  
+- **Stall Torque:** 2–20 kg·cm (depending on gear ratio)  
+- **Stall Current:** 1.5–2.5 A  
+- **Gearbox:** 25 mm diameter, all-metal reduction gearbox  
+- **Shaft Diameter:** 4 mm D-shaped output shaft  
+- **Motor Type:** Brushed DC motor with integrated gearbox  
+- **Rotation:** Reversible (via polarity swap)  
+- **Dimensions:** ~25 mm (diameter) × 55–70 mm (length, depends on gear ratio)  
+- **Mounting:** M3 threaded holes on gearbox face  
+
+**Purpose**  
+This motor is the muscle of our self-driving robot. With its built-in gearbox, it delivers the torque needed to move the car smoothly around the WRO track, even when friction or obstacles add resistance. Its cylindrical shape makes it easy to mount on a custom chassis without taking too much space.
+
+**Selection Reason**  
+We chose the JGA25-370 because it represents a balance between **strength and compactness**. Unlike the smaller XY-N20 motors, which are great for precision but limited in torque, this motor provides the raw pushing power we need for reliable forward motion and acceleration. With multiple gear ratio options, it allows us to tune for either **speed** or **endurance**, depending on the strategy. In short: this is the powerhouse that keeps our vehicle in motion.
 
 
 
