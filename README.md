@@ -13,29 +13,27 @@
 * `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
 * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
 # Table of Contents
-
-## Introduction
-- [ Competition Overview](#competition overview)
-- [ Who Are We?](#-who-are-we)
-- [ Robot Aims and Objectives](#-robot-aims-and-objectives)
-
-##  Technical Design
-- [ Design Strategy](#-design-strategy)
-- [ Hardware Components](#-hardware-components)
-- [ Software Architecture](#-software-architecture)
-
-##  Development Process
-- [ Assembly Process](#️-assembly-process)
-- [ Testing and Iteration](#-testing-and-iteration)
-- [ Performance Metrics](#-performance-metrics)
-
-##  Documentation
-- [ File Structure](#-file-structure)
-- [ Robot Photos](#-robot-photos)
-- [ Future Improvements](#-future-improvements)
-- [ Lessons Learned](#-lessons-learned)
-- [ References](#-references)
-
+- [Competition Overview](#competition-overview)
+- [Who Are We?](#who-are-we)
+- [Why BiruniVerse?](#why-biruniverse)
+- [Understanding the Challenge](#understanding-the-challenge)
+- [Robot Aims and Objectives](#robot-aims-and-objectives)
+- [Hardware Design](#hardware-design)
+  - [1. Chassis Plate](#1-chassis-plate)
+  - [2. Wheels](#2-wheels)
+    - [Front Wheels](#front-wheels)
+    - [Rear Wheels](#rear-wheels)
+  - [3. Steering Mechanism](#3-steering-mechanism)
+  - [4. Gearbox](#4-gearbox)
+  - [5. Controllers](#5controllers)
+  - [6. Sensors](#6-sensors)
+  - [7. Motors](#7-motors)
+  - [8. Motor Drivers](#8-motor-drivers)
+  - [9. Power](#9-power)
+  - [10. Camera](#10-camera)
+- [Strategies](#strategies)
+  - [First Task: Navigation Without Traffic Signs](#first-task-navigation-without-traffic-signs)
+  - [Second Task: Obstacle Avoidance](#second-task--obstacle-avoidance)
 ---
 
 ## Competition Overview
